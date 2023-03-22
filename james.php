@@ -15,13 +15,97 @@
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
   <link href="css/plugins/select2/select2.min.css" rel="stylesheet">
+  <!-- <script src="js/plugins/daterangepicker/daterangepicker.js"></script> -->
+  <link href="css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+  <link href="css/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet">
+  <script src="js/plugins/datapicker/bootstrap-datepicker.js"></script>
 
+  <link href="css/plugins/clockpicker/clockpicker.css" rel="stylesheet">
+  <!-- Clock picker -->
+  <script src="js/plugins/clockpicker/clockpicker.js"></script>
+  <link href="css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
   
+<style>
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+        color:white;
+        background-color: darkblue;
+        border-color: darkblue;
+    }
+    .btn-success{
+        color: white;
+        background-color: #203466;
+        border-color: #203466;
+    }
+   
+    
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+        color:#203466;
+        background-color: white;
+        font-size: 17.1px;
+    }
+    .panel .panel-default{
+        border: none !important;
+    }
+   
+   .panel-body{
+    border: none !important;
+   }
+    .panel-heading  {
+        border: none !important;
+    }
+    .panel-default {
+        border: none !important;
+    }
+    .text_design {
+        color:#203466;
+        font-size: 14px;
+    }
+   .date_div{
+    background-color: lightgray;
+    margin-left: 18px;
+    border-radius: 3px;
+   }
+   .row_div{
+    
+    height: 50px;
+    margin-top: 10px;
+   }
+   .input-group{
+    left: -1px !important;
+    top: 2px !important;
+   }
+   .checkbox-round1 {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2.5px solid darkgray;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
 
+.checkbox-round1:checked {
+    background-color: red;
+}
+.ml-3{
+  margin-left: 3rem !important;
+}
+.progress-small, .progress-small .progress-bar {
+  height: 4px !important;
+  width: 300px;
+}
+.progress-bar {
+  background-color: orange;
+}
+</style>
 </head>
 
 <body>
@@ -30,7 +114,7 @@
 
         <nav class="navbar-default navbar-static-side" role="navigation">
 
-            <?php include('inc_leftmenu.php');  ?>
+            <!-- <?php include('inc_leftmenu.php');  ?> -->
 
         </nav>
 
