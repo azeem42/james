@@ -2025,19 +2025,19 @@
 
                                         <div class="form-group  row">
                                             <div class="col-lg-6" style="margin-top: -9px;">
-                                                
-                                                    <div class="form-check form-check-inline">
+
+                                                <div class="form-check form-check-inline">
                                                     <input type="checkbox" class="checkbox-round1" />&nbsp; Sale/Executive
-                                                    </div>
-                                                    <div class="form-check form-check-inline ml-3">
+                                                </div>
+                                                <div class="form-check form-check-inline ml-3">
                                                     <input type="checkbox" class="checkbox-round1" />&nbsp; Master
-                                                    </div>
-                                                    <div class="form-check form-check-inline ml-3">
+                                                </div>
+                                                <div class="form-check form-check-inline ml-3">
                                                     <input type="checkbox" class="checkbox-round1" />&nbsp; General
-                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="col-lg-6">
-                                                
+
                                             </div>
                                         </div>
 
@@ -2073,19 +2073,19 @@
 
                                         <div class="form-group  row">
                                             <div class="col-lg-6" style="margin-top: -9px;">
-                                                
-                                                    <div class="form-check form-check-inline">
+
+                                                <div class="form-check form-check-inline">
                                                     <input type="checkbox" class="checkbox-round1" />&nbsp; Standard Rates
-                                                    </div>
-                                                    <div class="form-check form-check-inline ml-3">
+                                                </div>
+                                                <div class="form-check form-check-inline ml-3">
                                                     <input type="checkbox" class="checkbox-round1" />&nbsp; Flat Rate
-                                                    </div>
-                                                    <div class="form-check form-check-inline ml-3">
+                                                </div>
+                                                <div class="form-check form-check-inline ml-3">
                                                     <input type="checkbox" class="checkbox-round1" />&nbsp; Flat Amount
-                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="col-lg-6">
-                                                
+
                                             </div>
                                         </div>
 
@@ -2100,36 +2100,114 @@
 
                                         <div class="form-group  row">
                                             <div class="col-lg-6">
-                                            <i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#203466;font-size:37px;"></i>
-                                            
-                                            <div class="ibox-content">
-                                <!-- <div> -->
-                                    <div>
-                                        <span><b>File Name.png</b>&nbsp;&nbsp; 3.4mb</span>
-                                        
-                                    </div>
-                                    <div class="progress progress-small">
-                                        <div style="width: 33%;" class="progress-bar"></div>
-                                    </div>
-                                    <div>
-                                        <span>30% Done</span>
-                                    </div>
-                                <!-- </div> -->
-                            </div>
-                                        
-                            <button type="button" class="close" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
-
+                                                <div class="row">
+                                                    <div class="col-lg-2">
+                                                        <i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#203466;font-size:37px;"></i>
+                                                    </div>
+                                                    <div class="ibox-content1">
+                                                        <div>
+                                                            <span class="bar_text"><b>File Name.png</b>&nbsp;&nbsp;<span class="bar_text">3.4mb</span></span>
+                                                        </div>
+                                                        <div class="progress progress-small">
+                                                            <div style="width: 33%;" class="progress-bar"></div>
+                                                        </div>
+                                                        <div>
+                                                            <span class="bar_text">30% Done</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="close1" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                </div>
                                             </div>
                                             <div class="col-lg-6">
-                                                
+
                                             </div>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col-lg-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <b class="text-muted">Public Documents( Instructions: Documents uploaded here will be available to the public and wesite use.)</b>
+                                    </div>
+                                    <div class="panel-body">
+
+                                        <div class="form-group  row">
+                                            <div class="col-lg-6">
+                                                <label for="" class="text_design"><b>Category</b></label>
+                                                <select class="form-control mt-2" name="account" style="border-radius: 2px;">
+                                                    <option selected>Select Category</option>
+                                                    <option>option 1</option>
+                                                    <option>option 2</option>
+                                                    <option>option 3</option>
+                                                    <option>option 4</option>
+                                                </select>
+                                                <button class="btn btn-success mt-2" type="button"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="bold">Upload File</span></button><br>
+                                                <div class="row mt-3">
+                                                    <div class="col-lg-2">
+                                                        <i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#203466;font-size:37px;"></i>
+                                                    </div>
+                                                    <div class="ibox-content1">
+                                                        <div>
+                                                            <span class="bar_text"><b>File Name.png</b>&nbsp;&nbsp;<span class="bar_text">3.4mb</span></span>
+                                                        </div>
+                                                        <div class="progress progress-small">
+                                                            <div style="width: 33%;" class="progress-bar"></div>
+                                                        </div>
+                                                        <div>
+                                                            <span class="bar_text">30% Done</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="close1" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                </div>
+
+                                                <!-- <div class="col-lg-10" style="border: 1px solid green;width:72%;background-color:lightgrey;"> -->
+                                                <div class="row" style="border: 1px solid green;background-color:lightgrey;">
+                                                    <div class="col-lg-2">
+                                                        <i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#203466;font-size:37px;"></i>
+                                                    </div>
+                                                    <div class="ibox-content2">
+                                                        <div>
+                                                            <span class="bar_text"><b>File Name.png</b>&nbsp;&nbsp;<span class="bar_text">3.4mb</span></span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="close2" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                </div>
+                                                <!-- </div> -->
+                                                
+                                            </div>
+                                            
+                                            <div class="col-lg-6">
+                                                <select class="form-control" name="account" style="border-radius: 2px;">
+                                                    <option selected>Select Category</option>
+                                                    <option>option 1</option>
+                                                    <option>option 2</option>
+                                                    <option>option 3</option>
+                                                    <option>option 4</option>
+                                                </select>
+                                                <div class="row form-group mt-2">
+                                                            <div class="col-lg-6">
+                                                                <input type="text" value="Address" class="form-control" name="type">
+                                                            </div>
+                                                            <div class="col-lg-6">
+                                                                <input type="text" value="Address" class="form-control" name="type">
+                                                            </div>
+                                                        </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 

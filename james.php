@@ -105,6 +105,60 @@
 .progress-bar {
   background-color: orange;
 }
+.ibox-content1 {
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+    border: none;
+    margin-top: -16px;
+    margin-left: -48px;
+}
+.close1 {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #203466;
+    text-shadow: 0 1px 0 #fff;
+    /* opacity: .5; */
+    margin-top: -20px;
+    margin-right: 163px;
+    border: none;
+    background: none;
+}
+.bar_text{
+    font-size: 12px;
+    color: #203466;
+}
+.ibox-content2 {
+    /* background-color: #ffffff; */
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+    border: none;
+    margin-top: -8px;
+    margin-left: -48px;
+}
+.close2 {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #203466;
+    text-shadow: 0 1px 0 #fff;
+    /* opacity: .5; */
+    margin-top: -20px;
+    margin-right: 163px;
+    border: none;
+    background: none;
+}
 </style>
 </head>
 
