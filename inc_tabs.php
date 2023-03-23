@@ -2116,8 +2116,8 @@
                                                         </div>
                                                     </div>
                                                     <button type="button" class="close1" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -2163,28 +2163,70 @@
                                                         </div>
                                                     </div>
                                                     <button type="button" class="close1" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
                                                 </div>
 
-                                                <!-- <div class="col-lg-10" style="border: 1px solid green;width:72%;background-color:lightgrey;"> -->
-                                                <div class="row" style="border: 1px solid green;background-color:lightgrey;">
+
+
+                                                <div class="row" style="background-color:lightgrey;width: 77%;height: 37px;">
                                                     <div class="col-lg-2">
                                                         <i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#203466;font-size:37px;"></i>
                                                     </div>
-                                                    <div class="ibox-content2">
-                                                        <div>
-                                                            <span class="bar_text"><b>File Name.png</b>&nbsp;&nbsp;<span class="bar_text">3.4mb</span></span>
+                                                    <div class="col-lg-8">
+                                                        <div class="ibox-content2" style="margin-left:-37px;">
+                                                            <div>
+                                                                <span class="bar_text"><b>File Name.png</b>&nbsp;&nbsp;<span class="bar_text">3.4mb</span></span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <button type="button" class="close2" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
+                                                    <div class="col-lg-2">
+                                                        <button type="button" class="close2" aria-label="Close" style="margin-right:-2px;margin-top:5px;">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
                                                 </div>
-                                                <!-- </div> -->
-                                                
+
+                                                <div class="row form-group mt-3">
+                                                    <div class="col-lg-6">
+                                                        <label for="" class="text_design"><b>Purchaser Acknowledgement Form</b></label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row form-group">
+                                                    <div class="col-lg-8">
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox41" type="checkbox">
+                                                            <label for="checkbox41">
+                                                                <a href="">Purchaser Acknowledgement Form.pdf</a>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group mt-3">
+                                                    <div class="col-lg-6">
+                                                        <label for="" class="text_design"><b>Purchaser Acknowledgement Form</b></label>
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col-lg-8">
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox41" type="checkbox">
+                                                            <label for="checkbox41">
+                                                                <a href="">REEA Sale & Purcahse Agreement Guide.pdf</a>
+                                                            </label>
+                                                        </div>
+                                                        <div class="checkbox checkbox-success">
+                                                            <input id="checkbox41" type="checkbox">
+                                                            <label for="checkbox41">
+                                                                <a href="">Buyer Journey Guide.pdf</a>
+                                                            </label>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
                                             </div>
-                                            
+
                                             <div class="col-lg-6">
                                                 <select class="form-control" name="account" style="border-radius: 2px;">
                                                     <option selected>Select Category</option>
@@ -2193,24 +2235,42 @@
                                                     <option>option 3</option>
                                                     <option>option 4</option>
                                                 </select>
+                                                <div class="row form-group mt-3">
+                                                    <div class="col-lg-6">
+                                                        <input type="text" value="First Name" class="form-control" name="type">
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <input type="text" value="Last Name" class="form-control" name="type">
+                                                    </div>
+                                                </div>
                                                 <div class="row form-group mt-2">
-                                                            <div class="col-lg-6">
-                                                                <input type="text" value="Address" class="form-control" name="type">
-                                                            </div>
-                                                            <div class="col-lg-6">
-                                                                <input type="text" value="Address" class="form-control" name="type">
+                                                    <div class="col-lg-12">
+                                                        <input type="email" value="Email" class="form-control" name="email">
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group mt-2">
+                                                    <div class="col-lg-12">
+                                                        <div class="ibox-content no-padding">
+
+                                                            <div class="summernote">
+                                                                <br>
+                                                                <label class="text-muted mt-2">Dear James,</label>
+                                                                <br><br>
+                                                                <p class="text-muted">Thank you for your interest in 38 Wicklam lane, Greenhithe,<br>
+                                                                    Auckland 0632, Please fine below the links to the files in<br>
+                                                                    regards to the property.</p>
+                                                                <br />
                                                             </div>
                                                         </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
                     <div role="tabpanel" id="tab-6" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
                             <p>Activation</p>

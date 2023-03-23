@@ -16,6 +16,7 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     
+    
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
@@ -29,6 +30,9 @@
   <!-- Clock picker -->
   <script src="js/plugins/clockpicker/clockpicker.js"></script>
   <link href="css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
+
+  <link href="css/plugins/summernote/summernote-bs4.css" rel="stylesheet">
+ 
   
 <style>
     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
@@ -159,6 +163,19 @@
     border: none;
     background: none;
 }
+.note-popover .popover-content, .card-header.note-toolbar{
+    /* padding: 0 0 5px 5px; */
+    margin: 0;
+    /* background-color: white; */
+}
+
+.note-editor.note-frame .note-statusbar{
+    display: none;
+}
+.note-editor.note-frame{
+    border: 1px solid black;
+}
+
 </style>
 </head>
 
@@ -202,6 +219,16 @@
     <script src="js/inspinia.js"></script>
     <script src="js/plugins/pace/pace.min.js"></script>
 
+    <!-- SUMMERNOTE -->
+    <script src="js/plugins/summernote/summernote-bs4.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $('.summernote').summernote();
+
+       });
+    </script>
 
 </body>
 
