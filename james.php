@@ -175,7 +175,11 @@
 .note-editor.note-frame{
     border: 1px solid black;
 }
-
+.table {
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+color: #676a6c;
+}
 </style>
 </head>
 

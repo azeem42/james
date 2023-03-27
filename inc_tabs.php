@@ -2222,7 +2222,7 @@
                                                                 <a href="">Buyer Journey Guide.pdf</a>
                                                             </label>
                                                         </div>
-                                                        
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -2269,8 +2269,93 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col-lg-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <b class="text-muted">History Log</b>
+                                    </div>
+                                    <div class="panel-body">
+
+                                        <div class="form-group  row">
+                                           
+                                        <div class="col-lg-12">
+                                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Content</th>
+                                <th>Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                
+                                <td>2023-06-02</td>
+                                <td>8.00 am</td>
+                                <td>Shelly</td>
+                                <td>abc@gmail.com</td>
+                                <td><label class="text-muted">Dear James,</label>
+                                                                <br>
+                                                                <p class="text-muted">Thank you for your interest in 38 Wicklam lane, Greenhithe,<br>
+                                                                    Auckland 0632, Please fine below the links to the files in<br>
+                                                                    regards to the property.</p></td>
+                                <td><a href="">Follow-up</a></td>
+                            </tr>
+                            <tr>
+                                
+                                 
+                            <td>2023-06-02</td>
+                                <td>8.00 am</td>
+                                <td>Shelly</td>
+                                <td>abc@gmail.com</td>
+                                <td><label class="text-muted">Dear James,</label>
+                                                                <br>
+                                                                <p class="text-muted">Thank you for your interest in 38 Wicklam lane, Greenhithe,<br>
+                                                                    Auckland 0632, Please fine below the links to the files in<br>
+                                                                    regards to the property.</p></td>
+                                <td><a href="">Follow-up</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                                        </div>
+
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                
+                                    
+                                    
+
+                                        <div class="form-group  row">
+                                           <div class="col-lg-12" style="text-align: center;">
+                                           <button id="next" class="btn btn-success" type="button" style="text-align: right;">
+                                           <i class="fa fa-arrow-left"></i> Back
+                                                                </button>
+                                           
+                                           
+                                           <button id="next" class="btn btn-success" type="button">
+                                                                    Next <i class="fa fa-arrow-right"></i>
+                                                                </button>
+                                           </div>
+                                          
+                                        </div>
+                                   
+                                
+                            </div>
+
                         </div>
+
                     </div>
+
                     <div role="tabpanel" id="tab-6" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
                             <p>Activation</p>
