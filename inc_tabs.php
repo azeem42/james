@@ -13,7 +13,9 @@
                     <li><a class="nav-link" data-toggle="tab" href="#tab-7">Asset Builder</a></li>
                     <li><a class="nav-link" data-toggle="tab" href="#tab-8">Open Home Register</a></li>
                 </ul>
-                <div class="tab-content">
+                <!-- </div>
+<div class="col-lg-12"> -->
+                <div class="tab-content" style="background-color: white;border-radius: 10px;">
                     <div role="tabpanel" id="tab-1" class="tab-pane active">
                         <div class="panel-body mt-3" style="border-radius:10px;">
                             <div class="col-lg-12">
@@ -1296,7 +1298,7 @@
 
                                                                             <div class="row form-group">
 
-                                                                                <div class="col-lg-12">
+                                                                                <div class="col-xs-6 col-sm-6 col-lg-12">
                                                                                     <input type="text" class="form-control" value="asdfasdf">
                                                                                 </div>
 
@@ -2129,137 +2131,140 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-12">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <b class="text-muted">Public Documents( Instructions: Documents uploaded here will be available to the public and wesite use.)</b>
-                                    </div>
-                                    <div class="panel-body">
+                            <div class="container">
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-6 col-lg-12">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <b class="text-muted">Public Documents( Instructions: Documents uploaded here will be available to the public and wesite use.)</b>
+                                        </div>
+                                        <div class="panel-body">
 
-                                        <div class="form-group  row">
-                                            <div class="col-lg-6">
-                                                <label for="" class="text_design"><b>Category</b></label>
-                                                <select class="form-control mt-2" name="account" style="border-radius: 2px;">
-                                                    <option selected>Select Category</option>
-                                                    <option>option 1</option>
-                                                    <option>option 2</option>
-                                                    <option>option 3</option>
-                                                    <option>option 4</option>
-                                                </select>
-                                                <button class="btn btn-success mt-2" type="button"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="bold">Upload File</span></button><br>
-                                                <div class="row mt-3">
-                                                    <div class="col-lg-2">
-                                                        <i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#203466;font-size:37px;"></i>
-                                                    </div>
-                                                    <div class="ibox-content1">
-                                                        <div>
-                                                            <span class="bar_text"><b>File Name.png</b>&nbsp;&nbsp;<span class="bar_text">3.4mb</span></span>
+                                            <div class="form-group  row">
+                                                <div class="col-lg-6">
+                                                    <label for="" class="text_design"><b>Category</b></label>
+                                                    <select class="form-control mt-2" name="account" style="border-radius: 2px;">
+                                                        <option selected>Select Category</option>
+                                                        <option>option 1</option>
+                                                        <option>option 2</option>
+                                                        <option>option 3</option>
+                                                        <option>option 4</option>
+                                                    </select>
+                                                    <button class="btn btn-success mt-2" type="button"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="bold">Upload File</span></button><br>
+                                                    <div class="row mt-3">
+                                                        <div class="col-lg-2">
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#203466;font-size:37px;"></i>
                                                         </div>
-                                                        <div class="progress progress-small">
-                                                            <div style="width: 33%;" class="progress-bar"></div>
-                                                        </div>
-                                                        <div>
-                                                            <span class="bar_text">30% Done</span>
-                                                        </div>
-                                                    </div>
-                                                    <button type="button" class="close1" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-
-
-
-                                                <div class="row" style="background-color:lightgrey;width: 77%;height: 37px;">
-                                                    <div class="col-lg-2">
-                                                        <i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#203466;font-size:37px;"></i>
-                                                    </div>
-                                                    <div class="col-lg-8">
-                                                        <div class="ibox-content2" style="margin-left:-37px;">
+                                                        <div class="ibox-content1">
                                                             <div>
                                                                 <span class="bar_text"><b>File Name.png</b>&nbsp;&nbsp;<span class="bar_text">3.4mb</span></span>
                                                             </div>
+                                                            <div class="progress progress-small">
+                                                                <div style="width: 33%;" class="progress-bar"></div>
+                                                            </div>
+                                                            <div>
+                                                                <span class="bar_text">30% Done</span>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <button type="button" class="close2" aria-label="Close" style="margin-right:-2px;margin-top:5px;">
+                                                        <button type="button" class="close1" aria-label="Close">
                                                             <span aria-hidden="true">&times;</span>
                                                         </button>
                                                     </div>
-                                                </div>
 
-                                                <div class="row form-group mt-3">
-                                                    <div class="col-lg-6">
-                                                        <label for="" class="text_design"><b>Purchaser Acknowledgement Form</b></label>
+
+
+                                                    <div class="row" style="background-color:lightgrey;width: 75%;height: 37px;">
+                                                        <div class="col-lg-2">
+                                                            <i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#203466;font-size:37px;"></i>
+                                                        </div>
+                                                        <div class="col-lg-8">
+                                                            <div class="ibox-content2" style="margin-left:-37px;">
+                                                                <div>
+                                                                    <span class="bar_text"><b>File Name.png</b>&nbsp;&nbsp;<span class="bar_text">3.4mb</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-2">
+                                                            <button type="button" class="close2" aria-label="Close" style="margin-right:-2px;margin-top:5px;">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div>
 
-                                                <div class="row form-group">
-                                                    <div class="col-lg-8">
-                                                        <div class="checkbox checkbox-success">
-                                                            <input id="checkbox41" type="checkbox">
-                                                            <label for="checkbox41">
-                                                                <a href="">Purchaser Acknowledgement Form.pdf</a>
-                                                            </label>
+                                                    <div class="row form-group mt-3">
+                                                        <div class="col-lg-6">
+                                                            <label for="" class="text_design"><b>Purchaser Acknowledgement Form</b></label>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row form-group">
+                                                        <div class="col-lg-8">
+                                                            <div class="checkbox checkbox-success">
+                                                                <input id="checkbox41" type="checkbox">
+                                                                <label for="checkbox41">
+                                                                    <a href="">Purchaser Acknowledgement Form.pdf</a>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row form-group mt-3">
+                                                        <div class="col-lg-6">
+                                                            <label for="" class="text_design"><b>Purchaser Acknowledgement Form</b></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row form-group">
+                                                        <div class="col-lg-8">
+                                                            <div class="checkbox checkbox-success">
+                                                                <input id="checkbox41" type="checkbox">
+                                                                <label for="checkbox41">
+                                                                    <a href="">REEA Sale & Purcahse Agreement Guide.pdf</a>
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox checkbox-success">
+                                                                <input id="checkbox41" type="checkbox">
+                                                                <label for="checkbox41">
+                                                                    <a href="">Buyer Journey Guide.pdf</a>
+                                                                </label>
+                                                            </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row form-group mt-3">
-                                                    <div class="col-lg-6">
-                                                        <label for="" class="text_design"><b>Purchaser Acknowledgement Form</b></label>
-                                                    </div>
-                                                </div>
-                                                <div class="row form-group">
-                                                    <div class="col-lg-8">
-                                                        <div class="checkbox checkbox-success">
-                                                            <input id="checkbox41" type="checkbox">
-                                                            <label for="checkbox41">
-                                                                <a href="">REEA Sale & Purcahse Agreement Guide.pdf</a>
-                                                            </label>
+
+                                                <div class="col-lg-6">
+                                                    <select class="form-control" name="account" style="border-radius: 2px;">
+                                                        <option selected>Select Category</option>
+                                                        <option>option 1</option>
+                                                        <option>option 2</option>
+                                                        <option>option 3</option>
+                                                        <option>option 4</option>
+                                                    </select>
+                                                    <div class="row form-group mt-3">
+                                                        <div class="col-lg-6">
+                                                            <input type="text" value="First Name" class="form-control" name="type">
                                                         </div>
-                                                        <div class="checkbox checkbox-success">
-                                                            <input id="checkbox41" type="checkbox">
-                                                            <label for="checkbox41">
-                                                                <a href="">Buyer Journey Guide.pdf</a>
-                                                            </label>
+                                                        <div class="col-lg-6">
+                                                            <input type="text" value="Last Name" class="form-control" name="type">
                                                         </div>
+                                                    </div>
+                                                    <div class="row form-group mt-2">
+                                                        <div class="col-lg-12">
+                                                            <input type="email" value="Email" class="form-control" name="email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row form-group mt-2">
+                                                        <div class="col-lg-12">
+                                                            <div class="ibox-content no-padding">
 
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6">
-                                                <select class="form-control" name="account" style="border-radius: 2px;">
-                                                    <option selected>Select Category</option>
-                                                    <option>option 1</option>
-                                                    <option>option 2</option>
-                                                    <option>option 3</option>
-                                                    <option>option 4</option>
-                                                </select>
-                                                <div class="row form-group mt-3">
-                                                    <div class="col-lg-6">
-                                                        <input type="text" value="First Name" class="form-control" name="type">
-                                                    </div>
-                                                    <div class="col-lg-6">
-                                                        <input type="text" value="Last Name" class="form-control" name="type">
-                                                    </div>
-                                                </div>
-                                                <div class="row form-group mt-2">
-                                                    <div class="col-lg-12">
-                                                        <input type="email" value="Email" class="form-control" name="email">
-                                                    </div>
-                                                </div>
-                                                <div class="row form-group mt-2">
-                                                    <div class="col-lg-12">
-                                                        <div class="ibox-content no-padding">
-
-                                                            <div class="summernote">
-                                                                <br>
-                                                                <label class="text-muted mt-2">Dear James,</label>
-                                                                <br><br>
-                                                                <p class="text-muted">Thank you for your interest in 38 Wicklam lane, Greenhithe,<br>
-                                                                    Auckland 0632, Please fine below the links to the files in<br>
-                                                                    regards to the property.</p>
-                                                                <br />
+                                                                <div class="summernote">
+                                                                    <br>
+                                                                    <label class="text-muted mt-2">Dear James,</label>
+                                                                    <br><br>
+                                                                    <p class="text-muted">Thank you for your interest in 38 Wicklam lane, Greenhithe,<br>
+                                                                        Auckland 0632, Please fine below the links to the files in<br>
+                                                                        regards to the property.</p>
+                                                                    <br />
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2269,6 +2274,17 @@
                                     </div>
                                 </div>
                             </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-3 col-sm-3 col-md-6 col-lg-12" style="background-color:yellow;">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    </div>
+                                </div>
+                            </div>
+
 
                             <div class="col-lg-12">
                                 <div class="panel panel-default">
@@ -2278,78 +2294,80 @@
                                     <div class="panel-body">
 
                                         <div class="form-group  row">
-                                           
-                                        <div class="col-lg-12">
-                                        <table class="table table-striped">
-                            <thead>
-                            <tr>
-                                
-                                <th>Date</th>
-                                <th>Time</th>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Content</th>
-                                <th>Action</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                
-                                <td>2023-06-02</td>
-                                <td>8.00 am</td>
-                                <td>Shelly</td>
-                                <td>abc@gmail.com</td>
-                                <td><label class="text-muted">Dear James,</label>
-                                                                <br>
-                                                                <p class="text-muted">Thank you for your interest in 38 Wicklam lane, Greenhithe,<br>
-                                                                    Auckland 0632, Please fine below the links to the files in<br>
-                                                                    regards to the property.</p></td>
-                                <td><a href="">Follow-up</a></td>
-                            </tr>
-                            <tr>
-                                
-                                 
-                            <td>2023-06-02</td>
-                                <td>8.00 am</td>
-                                <td>Shelly</td>
-                                <td>abc@gmail.com</td>
-                                <td><label class="text-muted">Dear James,</label>
-                                                                <br>
-                                                                <p class="text-muted">Thank you for your interest in 38 Wicklam lane, Greenhithe,<br>
-                                                                    Auckland 0632, Please fine below the links to the files in<br>
-                                                                    regards to the property.</p></td>
-                                <td><a href="">Follow-up</a></td>
-                            </tr>
-                            </tbody>
-                        </table>
-                                        </div>
 
-                                           
+                                            <div class="col-lg-12">
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                        <tr>
+
+                                                            <th>Date</th>
+                                                            <th>Time</th>
+                                                            <th>Name</th>
+                                                            <th>Email</th>
+                                                            <th>Content</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+
+                                                            <td>2023-06-02</td>
+                                                            <td>8.00 am</td>
+                                                            <td>Shelly</td>
+                                                            <td>abc@gmail.com</td>
+                                                            <td><label class="text-muted">Dear James,</label>
+                                                                <br>
+                                                                <p class="text-muted">Thank you for your interest in 38 Wicklam lane, Greenhithe,<br>
+                                                                    Auckland 0632, Please fine below the links to the files in<br>
+                                                                    regards to the property.</p>
+                                                            </td>
+                                                            <td><a href="">Follow-up</a></td>
+                                                        </tr>
+                                                        <tr>
+
+
+                                                            <td>2023-06-02</td>
+                                                            <td>8.00 am</td>
+                                                            <td>Shelly</td>
+                                                            <td>abc@gmail.com</td>
+                                                            <td><label class="text-muted">Dear James,</label>
+                                                                <br>
+                                                                <p class="text-muted">Thank you for your interest in 38 Wicklam lane, Greenhithe,<br>
+                                                                    Auckland 0632, Please fine below the links to the files in<br>
+                                                                    regards to the property.</p>
+                                                            </td>
+                                                            <td><a href="">Follow-up</a></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-12">
-                                
-                                    
-                                    
 
-                                        <div class="form-group  row">
-                                           <div class="col-lg-12" style="text-align: center;">
-                                           <button id="next" class="btn btn-success" type="button" style="text-align: right;">
-                                           <i class="fa fa-arrow-left"></i> Back
-                                                                </button>
-                                           
-                                           
-                                           <button id="next" class="btn btn-success" type="button">
-                                                                    Next <i class="fa fa-arrow-right"></i>
-                                                                </button>
-                                           </div>
-                                          
-                                        </div>
-                                   
-                                
+
+
+
+                                <div class="form-group  row">
+                                    <div class="col-lg-12" style="text-align: center;">
+                                        <button id="next" class="btn btn-success" type="button" style="text-align: right;">
+                                            <i class="fa fa-arrow-left"></i> Back
+                                        </button>
+
+
+                                        <button id="next" class="btn btn-success" type="button">
+                                            Next <i class="fa fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+
+
                             </div>
 
                         </div>
