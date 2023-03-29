@@ -2269,6 +2269,22 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col-lg-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <b class="text-muted">History Log</b>
+                                    </div>
+                                    <div class="panel-body">
+
+                                        <div class="form-group  row">
+                                            
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <div role="tabpanel" id="tab-6" class="tab-pane">
