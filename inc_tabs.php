@@ -2156,12 +2156,22 @@
                                             <div class="panel-heading">
                                         <b class="text-muted">Advertisement</b>
                                         </div>
+                                        <div class="panel-body">
+                                        <div class="form-group  row">
+                                               
+                                        </div>
+                                        </div>
                                             </div>
                                            </div> 
                                            <div class="col-lg-6">
                                             <div class="panel panel-default">
                                             <div class="panel-heading">
                                         <b class="text-muted">Portal Visibility</b>
+                                        </div>
+                                        <div class="panel-body">
+                                        <div class="form-group  row">
+                                               
+                                        </div>
                                         </div>
                                             </div>
                                            </div> 
