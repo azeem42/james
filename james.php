@@ -32,6 +32,9 @@
   <link href="css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
 
   <link href="css/plugins/summernote/summernote-bs4.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  
  
   
 <style>
@@ -120,7 +123,7 @@
     border-width: 1px 0;
     border: none;
     margin-top: -16px;
-    margin-left: -48px;
+    margin-left: -14px;
 }
 .close1 {
     float: right;
@@ -181,12 +184,60 @@
 font-size: 12px;
 color: #676a6c;
 }
+.dropzone{
+    min-height: 330px;
+    border: 3px dashed darkgray;
+    background: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.ibox-content-adv {
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+    border: none;
+    /* margin-top: -16px; */
+    margin-left: -9px;
+}
+.close-adv {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #203466;
+    text-shadow: 0 1px 0 #fff;
+    /* opacity: .5; */
+    margin-top: 24px;
+    /* margin-right: 163px; */
+    border: none;
+    background: none;
+}
+.progress-small-adv, .progress-small-adv .progress-bar-adv{
+    height: 4px !important;
+width: 335px;
+}
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
 
+.checkbox-round:checked {
+    background-color: white;
+}
 @media only screen and (max-width: 600px) {
-    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
-    font-size: 5px;
-  }
-  
+   
 }
 </style>
 </head>
