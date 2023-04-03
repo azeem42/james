@@ -2005,7 +2005,7 @@
                                             <div class="col-lg-6">
                                                 <form action="#" class="dropzone" id="dropzoneForm">
                                                     <div class="fallback">
-                                                        <i class="fa fa-camera"></i>
+                                                        
                                                     </div>
                                                 </form>
                                             </div>
@@ -2133,99 +2133,39 @@
 
                                         </div>
 
-                                      
-
                                         <div class="form-group  row">
                                            
                                            
                                         </div>
 
-                                        <div class="form-group  row">
-                                            <div class="col-lg-6 date_div">
-                                                <div class="row">
-                                                    <div class="col-lg-6 row_div">
-                                                        <div class="input-group">
-                                                            <input type="date" class="form-control">
-                                                        </div>
+                                     
+                                    </div>
+                                </div>
+                            </div>
 
-                                                    </div>
-                                                    <div class="col-lg-6 row_div">
-                                                        <div class="input-group">
-                                                            <input type="date" class="form-control">
-                                                        </div>
+                            <div class="col-lg-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <b class="text-muted">Advertisement</b>
+                                    </div>
+                                    <div class="panel-body">
 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-
-                                            </div>
+                                        <div class="form-group  row mt-3">
+                                           <div class="col-lg-6">
+                                            <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                        <b class="text-muted">Advertisement</b>
                                         </div>
-
-                                        <div class="form-group  row">
-                                            <div class="col-lg-6">
-                                                <b class="text_design">Commission Type</b><br>
                                             </div>
-                                            <div class="col-lg-6">
-                                            </div>
+                                           </div> 
+                                           <div class="col-lg-6">
+                                            <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                        <b class="text-muted">Portal Visibility</b>
                                         </div>
-
-                                        <div class="form-group  row">
-                                            <div class="col-lg-6" style="margin-top: -9px;">
-
-                                                <div class="form-check form-check-inline">
-                                                    <input type="checkbox" class="checkbox-round1" />&nbsp; Standard Rates
-                                                </div>
-                                                <div class="form-check form-check-inline ml-3">
-                                                    <input type="checkbox" class="checkbox-round1" />&nbsp; Flat Rate
-                                                </div>
-                                                <div class="form-check form-check-inline ml-3">
-                                                    <input type="checkbox" class="checkbox-round1" />&nbsp; Flat Amount
-                                                </div>
                                             </div>
-                                            <div class="col-lg-6">
-
-                                            </div>
+                                           </div> 
                                         </div>
-
-                                        <div class="form-group  row">
-                                            <div class="col-lg-6">
-                                                <b class="text_design">Other Documents</b><br>
-                                                <button class="btn btn-success mt-2" type="button"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="bold">Upload File</span></button>
-                                            </div>
-                                            <div class="col-lg-6">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group  row">
-                                            <div class="col-xs-3 col-sm-3 col-lg-6">
-                                                <div class="row">
-                                                    <div class="col-xs-1 col-sm-1 col-lg-1">
-                                                        <i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#203466;font-size:37px;"></i>
-                                                    </div>
-
-                                                    <div class="ibox-content1">
-                                                        <div>
-                                                            <span class="bar_text"><b>File Name.png</b>&nbsp;&nbsp;<span class="bar_text">3.4mb</span></span>
-                                                        </div>
-                                                        <div class="progress progress-small">
-                                                            <div style="width: 33%;" class="progress-bar"></div>
-                                                        </div>
-                                                        <div>
-                                                            <span class="bar_text">30% Done</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <button type="button" class="close1" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-
-                                            </div>
-                                        </div>
-
                                     </div>
                                 </div>
                             </div>
