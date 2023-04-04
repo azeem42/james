@@ -142,6 +142,10 @@
     font-size: 12px;
     color: #203466;
 }
+.p_text{
+    font-size: 12px;
+    color: #203466;
+}
 .ibox-content2 {
     /* background-color: #ffffff; */
     color: inherit;

@@ -2005,7 +2005,7 @@
                                             <div class="col-lg-6">
                                                 <form action="#" class="dropzone" id="dropzoneForm">
                                                     <div class="fallback">
-                                                        
+
                                                     </div>
                                                 </form>
                                             </div>
@@ -2134,11 +2134,11 @@
                                         </div>
 
                                         <div class="form-group  row">
-                                           
-                                           
+
+
                                         </div>
 
-                                     
+
                                     </div>
                                 </div>
                             </div>
@@ -2151,34 +2151,135 @@
                                     <div class="panel-body">
 
                                         <div class="form-group  row mt-3">
-                                           <div class="col-lg-6">
-                                            <div class="panel panel-default">
-                                            <div class="panel-heading">
-                                        <b class="text-muted">Advertisement</b>
-                                        </div>
-                                        <div class="panel-body">
-                                        <div class="form-group  row">
-                                               
-                                        </div>
-                                        </div>
+                                            <div class="col-lg-6">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">
+                                                        <b class="text-muted">Advertisement</b>
+                                                    </div>
+                                                    <div class="panel-body">
+                                                        <div class="form-group  row">
+                                                            <div class="col-lg-12">
+                                                                <b class="text_design"><label for="">Advertisement Text</label></b>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row form-group">
+                                                            <div class="col-lg-6">
+                                                                <div class="checkbox checkbox-circle">
+                                                                    <input id="checkbox_eng" type="checkbox" checked="">
+                                                                    <label for="checkbox_eng">
+                                                                        English
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6">
+                                                                <div class="checkbox checkbox-circle">
+                                                                    <input id="checkbox_chinese" type="checkbox">
+                                                                    <label for="checkbox_chinese">
+                                                                        Chinese
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group  row">
+                                                            <div class="col-lg-12">
+                                                            <input type="text" value="Marketing Title" class="form-control" name="type">
+                                                            <p class="p_text mt-2"><b>Note : Maximum 30 Characters</b></p> 
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                            <textarea class="form-control" placeholder="Marketing Title" id="exampleFormControlTextarea1" rows="8"></textarea>
+                                                            <p class="p_text mt-2"><b>Note : Maximum 1000 Characters</b> | This Advertisement will be pushed<br> to selected portals & use in all our Marketing
+                                                                material, asset<br> builder, catalogue , newsletter etc.</p> 
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                           </div> 
-                                           <div class="col-lg-6">
-                                            <div class="panel panel-default">
-                                            <div class="panel-heading">
-                                        <b class="text-muted">Portal Visibility</b>
-                                        </div>
-                                        <div class="panel-body">
-                                        <div class="form-group  row">
-                                               
-                                        </div>
-                                        </div>
+                                            <div class="col-lg-6">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">
+                                                        <b class="text-muted">Portal Visibility</b>
+                                                    </div>
+                                                    <div class="panel-body">
+                                                        <div class="form-group  row">
+                                                        <div class="col-lg-12">
+                                                        <select class="form-control" name="type">
+                                                                    <option value="1">Address Visibility</option>
+                                                                    <option value="2">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="5">5</option>
+                                                                </select>
+                                                        </div>
+                                                        </div>
+                                                        <div class="form-group row mt-5">
+                                                        <div class="col-lg-6">
+                                                        <label for=""><b class="text_design">Visibility On</b></label>
+                                                        </div>
+                                                        <div class="col-lg-6" style="text-align: right;">
+                                                        <div class="checkbox">
+                                                        <input id="checkbox_selectall" type="checkbox">
+                                                        <label for="checkbox_selectall">
+                                                        Select All
+                                                        </label>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                           </div> 
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col-lg-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <b class="text-muted">Portal Visibility</b>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="form-group row">
+                                           <div class="col-lg-6">
+                                           <input type="text" value="Virtual tour URL" class="form-control" name="type">
+                                           </div>
+                                           <div class="col-lg-6">
+                                           <input type="text" value="Video URL" class="form-control" name="type">
+                                           </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <b class="text-muted">Signborad Erected</b>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="form-group row">
+                                        <div class="col-lg-6">
+                                                <button class="btn btn-success mt-2" type="button"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="bold">Upload File</span></button>
+                                                <p class="p_text mt-1">Note : upload your signboard photo here.</p>
+                                            </div>
+                                        </div>                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="form-group  row">
+                                    <div class="col-lg-12" style="text-align: center;">
+                                        <button id="next" class="btn btn-success" type="button" style="text-align: right;">
+                                            <i class="fa fa-arrow-left"></i> Back
+                                        </button>
+                                        <button id="next" class="btn btn-success" type="button">
+                                            Next <i class="fa fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
@@ -2548,25 +2649,16 @@
                             </div>
 
                             <div class="col-lg-12">
-
-
-
-
                                 <div class="form-group  row">
                                     <div class="col-lg-12" style="text-align: center;">
                                         <button id="next" class="btn btn-success" type="button" style="text-align: right;">
                                             <i class="fa fa-arrow-left"></i> Back
                                         </button>
-
-
                                         <button id="next" class="btn btn-success" type="button">
                                             Next <i class="fa fa-arrow-right"></i>
                                         </button>
                                     </div>
-
                                 </div>
-
-
                             </div>
 
                         </div>
