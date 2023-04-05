@@ -240,6 +240,23 @@ width: 335px;
 .checkbox-round:checked {
     background-color: white;
 }
+                                        
+.redColor{
+    color: red;
+}
+input[type="checkbox"]{
+  width: 17px;
+  height: 17px;
+  border: 2px solid #4664a3;
+  outline: none;
+  /* -webkit-appearance: none;
+  -moz-appearance: none; */
+  /* c */
+  position: relative;
+  margin-right: 2px;
+  border-radius: 3px;
+  color: red;
+}
 @media only screen and (max-width: 600px) {
    
 }

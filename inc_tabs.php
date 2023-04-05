@@ -1997,7 +1997,7 @@
                             <div class="col-lg-12">
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
-                                        <b class="text-muted">Photos * </b><span class="text-muted">( Photos more than 5mb will be compressed )</span>
+                                        <b class="text-muted">Photos <span class="redColor">*</span> </b><span style="font-weight:normal;">( Photos more than 5mb will be compressed )</span>
                                     </div>
                                     <div class="panel-body">
 
@@ -2182,13 +2182,13 @@
                                                         </div>
                                                         <div class="form-group  row">
                                                             <div class="col-lg-12">
-                                                            <input type="text" value="Marketing Title" class="form-control" name="type">
-                                                            <p class="p_text mt-2"><b>Note : Maximum 30 Characters</b></p> 
+                                                                <input type="text" value="Marketing Title" class="form-control" name="type">
+                                                                <p class="p_text mt-2"><b>Note : Maximum 30 Characters</b></p>
                                                             </div>
                                                             <div class="col-lg-12">
-                                                            <textarea class="form-control" placeholder="Marketing Title" id="exampleFormControlTextarea1" rows="8"></textarea>
-                                                            <p class="p_text mt-2"><b>Note : Maximum 1000 Characters</b> | This Advertisement will be pushed<br> to selected portals & use in all our Marketing
-                                                                material, asset<br> builder, catalogue , newsletter etc.</p> 
+                                                                <textarea class="form-control" placeholder="Marketing Title" id="exampleFormControlTextarea1" rows="8"></textarea>
+                                                                <p class="p_text mt-2"><b>Note : Maximum 1000 Characters</b> | This Advertisement will be pushed<br> to selected portals & use in all our Marketing
+                                                                    material, asset<br> builder, catalogue , newsletter etc.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2200,9 +2200,9 @@
                                                         <b class="text-muted">Portal Visibility</b>
                                                     </div>
                                                     <div class="panel-body">
-                                                        <div class="form-group  row">
-                                                        <div class="col-lg-12">
-                                                        <select class="form-control" name="type">
+                                                        <div class="form-group row">
+                                                            <div class="col-lg-12">
+                                                                <select class="form-control" name="type">
                                                                     <option value="1">Address Visibility</option>
                                                                     <option value="2">1</option>
                                                                     <option value="2">2</option>
@@ -2210,20 +2210,106 @@
                                                                     <option value="4">4</option>
                                                                     <option value="5">5</option>
                                                                 </select>
+                                                            </div>
                                                         </div>
+                                                        <div class="row form-group mt-4">
+                                                            <div class="col-lg-6">
+                                                                <label for=""><b class="text_design">Visibility On</b></label>
+                                                            </div>
+                                                            <div class="col-lg-6">
+                                                                <!-- <div class="checkbox"> -->
+                                                                <input id="checkbox_selectall" type="checkbox" class="checkbox">
+                                                                <label for="checkbox_selectall">
+                                                                    Select All
+                                                                </label>
+                                                                <!-- </div> -->
+                                                            </div>
                                                         </div>
-                                                        <div class="form-group row mt-5">
-                                                        <div class="col-lg-6">
-                                                        <label for=""><b class="text_design">Visibility On</b></label>
-                                                        </div>
-                                                        <div class="col-lg-6" style="text-align: right;">
-                                                        <div class="checkbox">
-                                                        <input id="checkbox_selectall" type="checkbox">
-                                                        <label for="checkbox_selectall">
-                                                        Select All
-                                                        </label>
-                                                        </div>
-                                                        </div>
+                                                        <div class="row form-group">
+                                                            <div class="col-lg-12">
+                                                                <label for="checkbox_int_mark">
+                                                                    <input id="checkbox_int_mark" class="checkbox checkbox-success" type="checkbox">
+                                                                    Internal Marketing
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label for="checkbox_jameslaw">
+                                                                    <input id="checkbox_jameslaw" class="checkbox checkbox-info" type="checkbox">
+                                                                    jameslaw.co.nz
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <label for="checkbox_featured">
+                                                                    <input id="checkbox_featured" class="checkbox checkbox-info" type="checkbox">
+                                                                    Featured
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label for="checkbox_int_mark">
+                                                                    <input id="checkbox_int_mark" class="checkbox checkbox-info" type="checkbox">
+                                                                    jameslaw.co.nz
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label for="checkbox_int_mark">
+                                                                    <input id="checkbox_int_mark" class="checkbox checkbox-info" type="checkbox">
+                                                                    jameslaw.co.nz
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label for="checkbox_int_mark">
+                                                                    <input id="checkbox_int_mark" class="checkbox checkbox-info" type="checkbox">
+                                                                    jameslaw.co.nz
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label for="checkbox_int_mark">
+                                                                    <input id="checkbox_int_mark" class="checkbox checkbox-info" type="checkbox">
+                                                                    jameslaw.co.nz
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-8">
+                                                                <label for="checkbox_featured">
+                                                                    <input id="checkbox_featured" class="checkbox checkbox-info" type="checkbox">
+                                                                    Featured
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <label for="checkbox_int_mark">
+                                                                    <input id="checkbox_int_mark" class="checkbox checkbox-success" type="checkbox">
+                                                                    Internal Marketing
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <label for="checkbox_int_mark">
+                                                                    <input id="checkbox_int_mark" class="checkbox checkbox-success" type="checkbox">
+                                                                    Internal Marketing
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <label for="checkbox_int_mark">
+                                                                    <input id="checkbox_int_mark" class="checkbox checkbox-success" type="checkbox">
+                                                                    Internal Marketing
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <label for="checkbox_int_mark">
+                                                                    <input id="checkbox_int_mark" class="checkbox checkbox-success" type="checkbox">
+                                                                    Internal Marketing
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <label for="checkbox_int_mark">
+                                                                    <input id="checkbox_int_mark" class="checkbox checkbox-success" type="checkbox">
+                                                                    Internal Marketing
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-lg-12">
+                                                                <label for="checkbox_res">
+                                                                    <input id="checkbox_res" class="checkbox checkbox-success" type="checkbox">
+                                                                    Residentialsale.co.nz
+                                                                </label>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2233,23 +2319,23 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-12">
+                            <!-- <div class="col-lg-12">
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <b class="text-muted">Portal Visibility</b>
                                     </div>
                                     <div class="panel-body">
                                         <div class="form-group row">
-                                           <div class="col-lg-6">
-                                           <input type="text" value="Virtual tour URL" class="form-control" name="type">
-                                           </div>
-                                           <div class="col-lg-6">
-                                           <input type="text" value="Video URL" class="form-control" name="type">
-                                           </div>
-                                        </div>  
+                                            <div class="col-lg-6">
+                                                <input type="text" value="Virtual tour URL" class="form-control" name="type">
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <input type="text" value="Video URL" class="form-control" name="type">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <div class="col-lg-12">
                                 <div class="panel panel-default">
@@ -2258,11 +2344,11 @@
                                     </div>
                                     <div class="panel-body">
                                         <div class="form-group row">
-                                        <div class="col-lg-6">
+                                            <div class="col-lg-6">
                                                 <button class="btn btn-success mt-2" type="button"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="bold">Upload File</span></button>
                                                 <p class="p_text mt-1">Note : upload your signboard photo here.</p>
                                             </div>
-                                        </div>                        
+                                        </div>
                                     </div>
                                 </div>
                             </div>
