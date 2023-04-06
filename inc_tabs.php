@@ -21,7 +21,6 @@
                             <div class="col-lg-12">
 
                                 <div class="row form-group">
-
                                     <div class="col-lg-7">
                                         <!-- <div class="row form-group">
                                             <label class="pt-2 pr-1" for="ref_number"><b>Reference Number:</b></label>
@@ -30,21 +29,16 @@
                                     </div>
                                     <div class="col-lg-5" style="text-align:right;">
                                         <div class="row form-group">
-
                                             <input type="text" class="form-control" id="ref_number" value="" readonly="" placeholder="Reference Number:JL94" style="width:85%;border-radius:0;cursor:not-allowed;">
                                             <button class="btn btn-success" type="submit">
                                                 <i class="fa fa-save"></i>
                                                 <b> Save</b></button>
                                         </div>
-
                                     </div>
-
                                 </div>
-
                             </div>
                             <div class="row form-group">
                                 <div class="col-md-12">
-
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <b>Listing and Contact Details</b>
@@ -1975,7 +1969,20 @@
 
                     <div role="tabpanel" id="tab-3" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
-                            <p>Marketing Cost</p>
+                            <div class="row form-group">
+                            <div class="col-lg-3">
+                            <input type="text" placeholder="Marketing Title" class="form-control" name="type">
+                            </div>
+                            <div class="col-lg-3">
+                            <input type="text" placeholder="Marketing Title" class="form-control" name="type">
+                            </div>
+                            <div class="col-lg-3">
+                            <input type="text" placeholder="Marketing Title" class="form-control" name="type">
+                            </div>
+                            <div class="col-lg-3">
+                            <input type="text" placeholder="Marketing Title" class="form-control" name="type">
+                            </div>
+                            </div>
                         </div>
                     </div>
 
@@ -1986,11 +1993,9 @@
                                     <div class="col-lg-7">
                                     </div>
                                     <div class="col-lg-5 mt-3">
-                                        <div class="row form-group" style="margin-left:395px;">
-                                            <button class="btn btn-success" type="submit">
-                                                <i class="fa fa-save"></i>
-                                                &nbsp; Save</button>
-                                        </div>
+                                        <button class="btn btn-success mb-3" type="submit" style="float:right;">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp; Save</button>
                                     </div>
                                 </div>
                             </div>
@@ -2022,10 +2027,10 @@
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-lg-1">
+                                                    <div class="col-xs-2 col-sm-2 col-lg-2">
                                                         <i class="fas fa-file-image" aria-hidden="true" style="color:#203466;font-size:37px;margin-top: 15px;"></i>
                                                     </div>
-                                                    <div class="col-lg-9">
+                                                    <div class="col-xs-4 col-sm-4 col-lg-8">
                                                         <div class="ibox-content-adv">
                                                             <div>
                                                                 <span class="bar_text"><b>File Name.png</b>&nbsp;&nbsp;<span class="bar_text">3.4mb</span></span>
@@ -2042,7 +2047,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2">
+                                                    <div class="col-xs-2 col-sm-2 col-lg-2">
                                                         <button type="button" class="close-adv" aria-label="Close">
                                                             <span aria-hidden="true">&times;</span>
                                                         </button>

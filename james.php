@@ -257,7 +257,7 @@ input[type="checkbox"]{
   border-radius: 3px;
   color: red;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
    
 }
 </style>
