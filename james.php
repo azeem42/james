@@ -108,6 +108,7 @@
 }
 .progress-bar {
   background-color: orange;
+  
 }
 .ibox-content1 {
     background-color: #ffffff;
@@ -175,7 +176,18 @@
 .note-editor.note-frame{
     border: 1px solid black;
 }
+.table {
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+color: #676a6c;
+}
 
+@media only screen and (max-width: 600px) {
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    font-size: 5px;
+  }
+  
+}
 </style>
 </head>
 
