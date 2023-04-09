@@ -2767,6 +2767,24 @@
 
                             </div>
                             <div class="col-lg-2">
+                            
+                            <!-- <form class="d-flex">
+                            <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search" style="border: none;"></i>
+                        </button>
+                        </div>
+                        </form> -->
+
+                        <div class="search">
+                          
+                          <input type="text" class="form-control" placeholder="Search">
+                          <i class="fa fa-search"></i>
+                        </div>
+                        
+                            </div>
+                            <div class="col-lg-2">
                             <button type="button" class="btn btn-success">
                                 <i class="fa fa-plus"> Create Appraisal</i>
                             </button>

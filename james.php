@@ -257,6 +257,39 @@ input[type="checkbox"]{
   border-radius: 3px;
   color: red;
 }
+.search{
+       position: relative;
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+         
+       }
+
+       .search input{
+
+        /* height: 60px;
+        text-indent: 25px; */
+        border-radius: 5px;
+        background-color: lightgray;
+       }
+       /* .search input:focus{
+box-shadow: none;
+border: 2px solid blue;
+} */
+
+.search .fa-search{
+
+position: absolute;
+top: 12px;
+/* left: 16px; */
+right: 10px;
+}
+/* .search button{
+position: absolute;
+top: 5px;
+right: 5px;
+height: 50px;
+width: 110px;
+background: blue;
+} */
 @media only screen and (max-width: 576px) {
    
 }
