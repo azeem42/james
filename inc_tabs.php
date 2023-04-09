@@ -2758,10 +2758,33 @@
 
                     <div role="tabpanel" id="tab-6" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
-                            <p>Activation</p>
+                            <div class="col-lg-12">
+                            <div class="row form-group">
+                            <div class="col-lg-1">
+                            <label><b class="text_design">Listing </b></label>
+                            </div>
+                            <div class="col-lg-3">
+
+                            </div>
+                            <div class="col-lg-2">
+                            <button type="button" class="btn btn-success">
+                                <i class="fa fa-plus"> Create Appraisal</i>
+                            </button>
+                            </div>
+                            <div class="col-lg-2">
+                            <button type="button" class="btn btn-success">
+                                <i class="fa fa-file-pdf"> Download PDF</i>
+                            </button>
+                            </div>
+                            <div class="col-lg-2">
+                            <button type="button" class="btn btn-success">
+                                <i class="fa fa-download"> Download CSV</i>
+                            </button>
+                            </div>
+                            </div>
                         </div>
                     </div>
-
+                    </div>
                     <div role="tabpanel" id="tab-7" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
                             <p>Asset Builder</p>
