@@ -2763,25 +2763,18 @@
                             <div class="col-lg-1">
                             <label><b class="text_design">Listing </b></label>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-2">
 
                             </div>
-                            <div class="col-lg-2">
-                            
-                            <!-- <form class="d-flex">
-                            <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <button class="btn btn-outline-secondary" type="submit">
-                        <i class="fas fa-search" style="border: none;"></i>
-                        </button>
-                        </div>
-                        </form> -->
+                            <div class="col-lg-3">
 
-                        <div class="search">
-                          
-                          <input type="text" class="form-control" placeholder="Search">
-                          <i class="fa fa-search"></i>
-                        </div>
+                            <div class="topnav">
+                           
+                            <div class="search-container">
+                            <input type="text" placeholder="Search" name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                            </div>
                         
                             </div>
                             <div class="col-lg-2">

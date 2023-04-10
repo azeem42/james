@@ -257,31 +257,47 @@ input[type="checkbox"]{
   border-radius: 3px;
   color: red;
 }
-.search{
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  border-radius:2px;
+}
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer; 
+}
+.topnav .search-container {
+  float: right;
+  
+}
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+/* .search{
        position: relative;
-       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
-         
-       }
-
-       .search input{
-
-        /* height: 60px;
-        text-indent: 25px; */
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);       
+       } */
+       /* .search input{
+        height: 60px;
+        text-indent: 25px;
         border-radius: 5px;
         background-color: lightgray;
-       }
-       /* .search input:focus{
-box-shadow: none;
-border: 2px solid blue;
-} */
-
-.search .fa-search{
-
+       } */
+/* .search .fa-search{
 position: absolute;
 top: 12px;
-/* left: 16px; */
+left: 16px;
 right: 10px;
-}
+} */
 /* .search button{
 position: absolute;
 top: 5px;
@@ -290,9 +306,21 @@ height: 50px;
 width: 110px;
 background: blue;
 } */
-@media only screen and (max-width: 576px) {
-   
-}
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
 </style>
 </head>
 
