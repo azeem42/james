@@ -1970,18 +1970,18 @@
                     <div role="tabpanel" id="tab-3" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
                             <div class="row form-group">
-                            <div class="col-lg-3">
-                            <input type="text" placeholder="Marketing Title" class="form-control" name="type">
-                            </div>
-                            <div class="col-lg-3">
-                            <input type="text" placeholder="Marketing Title" class="form-control" name="type">
-                            </div>
-                            <div class="col-lg-3">
-                            <input type="text" placeholder="Marketing Title" class="form-control" name="type">
-                            </div>
-                            <div class="col-lg-3">
-                            <input type="text" placeholder="Marketing Title" class="form-control" name="type">
-                            </div>
+                                <div class="col-lg-3">
+                                    <input type="text" placeholder="Marketing Title" class="form-control" name="type">
+                                </div>
+                                <div class="col-lg-3">
+                                    <input type="text" placeholder="Marketing Title" class="form-control" name="type">
+                                </div>
+                                <div class="col-lg-3">
+                                    <input type="text" placeholder="Marketing Title" class="form-control" name="type">
+                                </div>
+                                <div class="col-lg-3">
+                                    <input type="text" placeholder="Marketing Title" class="form-control" name="type">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2758,44 +2758,40 @@
 
                     <div role="tabpanel" id="tab-6" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
-                            <div class="col-lg-12">
-                            <div class="row form-group">
-                            <div class="col-lg-1">
-                            <label><b class="text_design">Listing </b></label>
+                          <div class="row form-group">
+                            
+                            <div class="col-lg-4">
+                            <label for="" class="text_design"><b>Listing</b></label>
                             </div>
-                            <div class="col-lg-2">
 
+                            <div class="col-lg-2">
+                            <button class="btn btn-success" type="submit">
+                            <i class="fa fa-download"></i>
+                            Create Appraisal</button>
                             </div>
-                            <div class="col-lg-3">
 
-                            <div class="topnav">
-                           
-                            <div class="search-container">
-                            <input type="text" placeholder="Search" name="search">
-                            <button type="submit"><i class="fa fa-search"></i></button>
-                            </div>
-                            </div>
-                        
-                            </div>
                             <div class="col-lg-2">
-                            <button type="button" class="btn btn-success">
-                                <i class="fa fa-plus"> Create Appraisal</i>
-                            </button>
+                            <button class="btn btn-success" type="submit">
+                            <i class="fa fa-download"></i>
+                            Download All</button>
                             </div>
+
                             <div class="col-lg-2">
-                            <button type="button" class="btn btn-success">
-                                <i class="fa fa-file-pdf"> Download PDF</i>
-                            </button>
+                            <button class="btn btn-success" type="submit">
+                            <i class="fa fa-download"></i>
+                            Download All</button>
                             </div>
+
                             <div class="col-lg-2">
-                            <button type="button" class="btn btn-success">
-                                <i class="fa fa-download"> Download CSV</i>
-                            </button>
+                            <button class="btn btn-success" type="submit">
+                            <i class="fa fa-download"></i>
+                            Download All</button>
                             </div>
-                            </div>
+                            
+                          </div>
                         </div>
                     </div>
-                    </div>
+
                     <div role="tabpanel" id="tab-7" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
                             <p>Asset Builder</p>
