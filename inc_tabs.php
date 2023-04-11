@@ -2758,37 +2758,22 @@
 
                     <div role="tabpanel" id="tab-6" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
-                          <div class="row form-group">
-                            
-                            <div class="col-lg-4">
-                            <label for="" class="text_design"><b>Listing</b></label>
+                            <div class="row form-group">
+                            <div class="col-lg-6">
+                            <label for=""><h3 class="tab6_design">Listing</h3></label>
                             </div>
-
-                            <div class="col-lg-2">
-                            <button class="btn btn-success" type="submit">
-                            <i class="fa fa-download"></i>
-                            Create Appraisal</button>
+                            <div class="col-lg-6" style="text-align: right;">
+                            <button class="btn btn-success">
+                                <i class="fa fa-plus"></i>Create Appraisal
+                            </button>
+                            <button class="btn btn-success">
+                                <i class="fa fa-plus"></i>Create Appraisal
+                            </button>
+                            <button class="btn btn-success">
+                                <i class="fa fa-plus"></i>Create Appraisal
+                            </button>
                             </div>
-
-                            <div class="col-lg-2">
-                            <button class="btn btn-success" type="submit">
-                            <i class="fa fa-download"></i>
-                            Download All</button>
                             </div>
-
-                            <div class="col-lg-2">
-                            <button class="btn btn-success" type="submit">
-                            <i class="fa fa-download"></i>
-                            Download All</button>
-                            </div>
-
-                            <div class="col-lg-2">
-                            <button class="btn btn-success" type="submit">
-                            <i class="fa fa-download"></i>
-                            Download All</button>
-                            </div>
-                            
-                          </div>
                         </div>
                     </div>
 

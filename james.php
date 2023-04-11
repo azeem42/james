@@ -262,7 +262,11 @@ input[type="checkbox"]{
             background-color: #203466;
             color: white;
 }
-
+.tab6_design{
+    color: #203466;
+    font-size: 25px;
+    font-weight: bold;
+}
 </style>
 </head>
 
