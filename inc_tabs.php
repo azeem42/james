@@ -2759,21 +2759,85 @@
                     <div role="tabpanel" id="tab-6" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
                             <div class="row form-group">
-                            <div class="col-lg-6">
-                            <label for=""><h3 class="tab6_design">Listing</h3></label>
+                                <div class="col-lg-6">
+                                    <label for="">
+                                        <h3 class="tab6_design">Listing</h3>
+                                    </label>
+                                </div>
+                                <div class="col-lg-6" style="text-align: right;">  
+                                    <!-- <div class="input-group">
+                                        <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+                                        <button class="btn btn-primary" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div> -->
+                                    <button class="btn btn-success">
+                                        <i class="fa fa-plus"></i> Create Appraisal
+                                    </button>
+                                    <button class="btn btn-success">
+                                        <i class="fa fa-plus"></i> Create Appraisal
+                                    </button>
+                                    <button class="btn btn-success">
+                                        <i class="fa fa-plus"></i> Create Appraisal
+                                    </button>
+                                </div>
                             </div>
-                            <div class="col-lg-6" style="text-align: right;">
-                            <button class="btn btn-success">
-                                <i class="fa fa-plus"></i>Create Appraisal
-                            </button>
-                            <button class="btn btn-success">
-                                <i class="fa fa-plus"></i>Create Appraisal
-                            </button>
-                            <button class="btn btn-success">
-                                <i class="fa fa-plus"></i>Create Appraisal
-                            </button>
+                            <div class="row form-group">
+                            <div class="col-lg-12"  style="border:1px solid green;">
+                            <div class="row">
+                            <div class="col-lg-2 row_bg row_rad">
+                            <div class="input-group">
+                            <input class="form-control cal_bg" type="date">
+                            &nbsp;<span class="mt-1">To</span>&nbsp; 
+                            <input class="form-control cal_bg" type="date">
                             </div>
                             </div>
+                            <div class="col-lg-2">
+                            <select class="form-control sel_settings" name="" id="" style="height:40px;">
+                                <option value="">Listing Status</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                            </select>
+                            </div>
+                            <div class="col-lg-2">
+                            <select class="form-control sel_settings" name="" id="" style="height:40px;">
+                                <option value="">Listing Type</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                            </select>
+                            </div>
+                            <div class="col-lg-2">
+                            <select class="form-control sel_settings" name="" id="" style="height:40px;">
+                                <option value="">Listing Use</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                            </select>
+                            </div>
+                            <div class="col-lg-2">
+                            <select class="form-control sel_settings" name="" id="" style="height:40px;">
+                                <option value="">Salesperson</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                            </select>
+                            </div>
+                            <div class="col-lg-2" style="text-align: right;">
+                            <button class="btn btn-block btn-success">Submit</button>
+                            </div>
+                            </div>
+                            </div>
+</div>
                         </div>
                     </div>
 
