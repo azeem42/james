@@ -2764,7 +2764,7 @@
                                         <h3 class="tab6_design">Listing</h3>
                                     </label>
                                 </div>
-                                <div class="col-lg-6" style="text-align: right;">  
+                                <div class="col-lg-6" style="text-align: right;">
                                     <!-- <div class="input-group">
                                         <input type="search" class="form-control" placeholder="Search" aria-label="Search">
                                         <button class="btn btn-primary" type="button">
@@ -2783,61 +2783,142 @@
                                 </div>
                             </div>
                             <div class="row form-group">
-                            <div class="col-lg-12"  style="border:1px solid green;">
-                            <div class="row">
-                            <div class="col-lg-2 row_bg row_rad">
-                            <div class="input-group">
-                            <input class="form-control cal_bg" type="date">
-                            &nbsp;<span class="mt-1">To</span>&nbsp; 
-                            <input class="form-control cal_bg" type="date">
+                                <div class="col-lg-2 row_rad" style="background-color: #203466;color:#fff;">
+                                    <div class="input-group">
+                                        <input class="form-control cal_bg" type="date">
+                                        &nbsp;<span class="mt-1">To</span>&nbsp;
+                                        <input class="form-control cal_bg" type="date">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <select class="form-control sel_settings" name="" id="" style="height:40px;">
+                                        <option value="">Listing Status</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-2">
+                                    <select class="form-control sel_settings" name="" id="" style="height:40px;">
+                                        <option value="">Listing Type</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-2">
+                                    <select class="form-control sel_settings" name="" id="" style="height:40px;">
+                                        <option value="">Listing Use</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-2">
+                                    <select class="form-control sel_settings" name="" id="" style="height:40px;">
+                                        <option value="">Salesperson</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-2" style="text-align: right;">
+                                    <button class="btn btn-lg btn-success" style="width:97%;">Submit</button>
+                                </div>
                             </div>
+                            <div class="row form-group">
+                                <div class="col-lg-12" style="text-align: right;">
+                                    <button class="btn btn-lg btn-success">Advance Search</button>
+                                </div>
                             </div>
-                            <div class="col-lg-2">
-                            <select class="form-control sel_settings" name="" id="" style="height:40px;">
-                                <option value="">Listing Status</option>
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
-                            </select>
+                            <div class="row form-group">
+                                <div class="col-lg-12">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Date</th>
+                                                <th>Reference</th>
+                                                <th>Property Address</th>
+                                                <th></th>
+                                                <th>Closing Date</th>
+                                                <th>Agency Diary</th>
+                                                <th colspan="5">Sales Person</th>
+                                                <th>Asset Builder</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="text_design" style="border:1px solid darkgray;background-color:lightgray;">
+                                                <td>10-12-2018</td>
+                                               <td><b>JL47299</b></td>
+                                               <td><b>35 Dominion Road, Mount<br> Eden, Auckland</b></td>
+                                               <td>12-11-2022</td>
+                                               <td>12-11-2022</td>
+                                               <td><b>$234356</b></td>
+                                               <td colspan="5"><b>Micheal Chen</b></td>
+                                               <td><button class="btn btn-success">
+                                                <i class="fa fa-pen"> Asset</i>
+                                               </button></td>
+                                            </tr>
+                                            <tr class="text_design" style="border:1px solid darkgray;background-color:lightgray;">
+                                                <td>10-12-2018</td>
+                                               <td><b>JL47299</b></td>
+                                               <td><b>35 Dominion Road, Mount<br> Eden, Auckland</b></td>
+                                               <td>12-11-2022</td>
+                                               <td>12-11-2022</td>
+                                               <td><b>$234356</b></td>
+                                               <td colspan="5"><b>Micheal Chen</b></td>
+                                               <td><button class="btn btn-success">
+                                                <i class="fa fa-pen"> Asset</i>
+                                               </button></td>
+                                            </tr>
+                                            <tr class="text_design" style="border:1px solid darkgray;background-color:lightgray;">
+                                                <td>10-12-2018</td>
+                                               <td><b>JL47299</b></td>
+                                               <td><b>35 Dominion Road, Mount<br> Eden, Auckland</b></td>
+                                               <td>12-11-2022</td>
+                                               <td>12-11-2022</td>
+                                               <td><b>$234356</b></td>
+                                               <td colspan="5"><b>Micheal Chen</b></td>
+                                               <td><button class="btn btn-success">
+                                                <i class="fa fa-pen"> Asset</i>
+                                               </button></td>
+                                            </tr>
+                                            <tr class="text_design" style="border:1px solid darkgray;background-color:lightgray;">
+                                                <td>10-12-2018</td>
+                                               <td><b>JL47299</b></td>
+                                               <td><b>35 Dominion Road, Mount<br> Eden, Auckland</b></td>
+                                               <td>12-11-2022</td>
+                                               <td>12-11-2022</td>
+                                               <td><b>$234356</b></td>
+                                               <td colspan="5"><b>Micheal Chen</b></td>
+                                               <td><button class="btn btn-success">
+                                                <i class="fa fa-pen"> Asset</i>
+                                               </button></td>
+                                            </tr>
+                                            <tr class="text_design" style="border:1px solid darkgray;background-color:lightgray;">
+                                                <td>10-12-2018</td>
+                                               <td><b>JL47299</b></td>
+                                               <td><b>35 Dominion Road, Mount<br> Eden, Auckland</b></td>
+                                               <td>12-11-2022</td>
+                                               <td>12-11-2022</td>
+                                               <td><b>$234356</b></td>
+                                               <td colspan="5"><b>Micheal Chen</b></td>
+                                               <td><button class="btn btn-success">
+                                                <i class="fa fa-pen"> Asset</i>
+                                               </button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
-                            <div class="col-lg-2">
-                            <select class="form-control sel_settings" name="" id="" style="height:40px;">
-                                <option value="">Listing Type</option>
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
-                            </select>
-                            </div>
-                            <div class="col-lg-2">
-                            <select class="form-control sel_settings" name="" id="" style="height:40px;">
-                                <option value="">Listing Use</option>
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
-                            </select>
-                            </div>
-                            <div class="col-lg-2">
-                            <select class="form-control sel_settings" name="" id="" style="height:40px;">
-                                <option value="">Salesperson</option>
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
-                            </select>
-                            </div>
-                            <div class="col-lg-2" style="text-align: right;">
-                            <button class="btn btn-block btn-success">Submit</button>
-                            </div>
-                            </div>
-                            </div>
-</div>
                         </div>
                     </div>
 
