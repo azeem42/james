@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="tabs-container">
-                <ul class="nav nav-tabs" role="tablist">
+                <ul class="nav nav-tabs" role="tablist" style="background-color: white;">
                     <li><a class="nav-link active" data-toggle="tab" href="#tab-1">Listing Details</a></li>
                     <li><a class="nav-link" data-toggle="tab" href="#tab-2">AML</a></li>
                     <li><a class="nav-link" data-toggle="tab" href="#tab-3">Marketing Cost</a></li>
@@ -2759,165 +2759,97 @@
                     <div role="tabpanel" id="tab-6" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
                             <div class="row form-group">
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <label for="">
                                         <h3 class="tab6_design">Listing</h3>
                                     </label>
                                 </div>
-                                <div class="col-lg-6" style="text-align: right;">
-                                    <!-- <div class="input-group">
-                                        <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+
+                                <div class="col-lg-2">
+                                    <div class="input-group">
+                                        <input type="search" class="form-control" placeholder="Search" style="height:45px;">
                                         <button class="btn btn-primary" type="button">
                                             <i class="fa fa-search"></i>
                                         </button>
-                                    </div> -->
-                                    <button class="btn btn-success">
-                                        <i class="fa fa-plus"></i> Create Appraisal
-                                    </button>
-                                    <button class="btn btn-success">
-                                        <i class="fa fa-plus"></i> Create Appraisal
-                                    </button>
-                                    <button class="btn btn-success">
-                                        <i class="fa fa-plus"></i> Create Appraisal
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <div class="col-lg-2 row_rad" style="background-color: #203466;color:#fff;">
-                                    <div class="input-group">
-                                        <input class="form-control cal_bg" type="date">
-                                        &nbsp;<span class="mt-1">To</span>&nbsp;
-                                        <input class="form-control cal_bg" type="date">
                                     </div>
                                 </div>
+                                <!-- <div class="col-lg-7" style="text-align: right;border:1px solid green;"> -->
+
                                 <div class="col-lg-2">
-                                    <select class="form-control sel_settings" name="" id="" style="height:40px;">
-                                        <option value="">Listing Status</option>
-                                        <option value="">1</option>
-                                        <option value="">2</option>
-                                        <option value="">3</option>
-                                        <option value="">4</option>
-                                        <option value="">5</option>
-                                    </select>
+                                    <button class="btn btn-lg btn-success">
+                                        <i class="fa fa-plus"></i> Create Appraisal
+                                    </button>
+                                </div>
+
+                                <div class="col-lg-2">
+                                    <button class="btn btn-lg btn-success">
+                                        <i class="fa fa-plus"></i> Create Appraisal
+                                    </button>
                                 </div>
                                 <div class="col-lg-2">
-                                    <select class="form-control sel_settings" name="" id="" style="height:40px;">
-                                        <option value="">Listing Type</option>
-                                        <option value="">1</option>
-                                        <option value="">2</option>
-                                        <option value="">3</option>
-                                        <option value="">4</option>
-                                        <option value="">5</option>
-                                    </select>
+                                    <button class="btn btn-lg btn-success">
+                                        <i class="fa fa-plus"></i> Create Appraisal
+                                    </button>
                                 </div>
-                                <div class="col-lg-2">
-                                    <select class="form-control sel_settings" name="" id="" style="height:40px;">
-                                        <option value="">Listing Use</option>
-                                        <option value="">1</option>
-                                        <option value="">2</option>
-                                        <option value="">3</option>
-                                        <option value="">4</option>
-                                        <option value="">5</option>
-                                    </select>
-                                </div>
-                                <div class="col-lg-2">
-                                    <select class="form-control sel_settings" name="" id="" style="height:40px;">
-                                        <option value="">Salesperson</option>
-                                        <option value="">1</option>
-                                        <option value="">2</option>
-                                        <option value="">3</option>
-                                        <option value="">4</option>
-                                        <option value="">5</option>
-                                    </select>
+                                <!-- </div> -->
+                            </div>
+                            <div class="row form-group" style="background-color: lightgray;">
+                                <div class="col-lg-10">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="input-group">
+                                                <input type="date" class="form-control">
+                                                TO
+                                                <input type="date" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Listing Status</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Listing Type</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Listing Use</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Salesperson</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-lg-2" style="text-align: right;">
-                                    <button class="btn btn-lg btn-success" style="width:97%;">Submit</button>
+                                <button class="btn btn-lg btn-success" type="submit">Submit</button>
                                 </div>
                             </div>
                             <div class="row form-group">
-                                <div class="col-lg-12" style="text-align: right;">
-                                    <button class="btn btn-lg btn-success">Advance Search</button>
-                                </div>
+                            <div class="col-lg-10">
+
                             </div>
-                            <div class="row form-group">
-                                <div class="col-lg-12">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Date</th>
-                                                <th>Reference</th>
-                                                <th>Property Address</th>
-                                                <th></th>
-                                                <th>Closing Date</th>
-                                                <th>Agency Diary</th>
-                                                <th colspan="5">Sales Person</th>
-                                                <th>Asset Builder</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr class="text_design" style="border:1px solid darkgray;background-color:lightgray;">
-                                                <td>10-12-2018</td>
-                                               <td><b>JL47299</b></td>
-                                               <td><b>35 Dominion Road, Mount<br> Eden, Auckland</b></td>
-                                               <td>12-11-2022</td>
-                                               <td>12-11-2022</td>
-                                               <td><b>$234356</b></td>
-                                               <td colspan="5"><b>Micheal Chen</b></td>
-                                               <td><button class="btn btn-success">
-                                                <i class="fa fa-pen"> Asset</i>
-                                               </button></td>
-                                            </tr>
-                                            <tr class="text_design" style="border:1px solid darkgray;background-color:lightgray;">
-                                                <td>10-12-2018</td>
-                                               <td><b>JL47299</b></td>
-                                               <td><b>35 Dominion Road, Mount<br> Eden, Auckland</b></td>
-                                               <td>12-11-2022</td>
-                                               <td>12-11-2022</td>
-                                               <td><b>$234356</b></td>
-                                               <td colspan="5"><b>Micheal Chen</b></td>
-                                               <td><button class="btn btn-success">
-                                                <i class="fa fa-pen"> Asset</i>
-                                               </button></td>
-                                            </tr>
-                                            <tr class="text_design" style="border:1px solid darkgray;background-color:lightgray;">
-                                                <td>10-12-2018</td>
-                                               <td><b>JL47299</b></td>
-                                               <td><b>35 Dominion Road, Mount<br> Eden, Auckland</b></td>
-                                               <td>12-11-2022</td>
-                                               <td>12-11-2022</td>
-                                               <td><b>$234356</b></td>
-                                               <td colspan="5"><b>Micheal Chen</b></td>
-                                               <td><button class="btn btn-success">
-                                                <i class="fa fa-pen"> Asset</i>
-                                               </button></td>
-                                            </tr>
-                                            <tr class="text_design" style="border:1px solid darkgray;background-color:lightgray;">
-                                                <td>10-12-2018</td>
-                                               <td><b>JL47299</b></td>
-                                               <td><b>35 Dominion Road, Mount<br> Eden, Auckland</b></td>
-                                               <td>12-11-2022</td>
-                                               <td>12-11-2022</td>
-                                               <td><b>$234356</b></td>
-                                               <td colspan="5"><b>Micheal Chen</b></td>
-                                               <td><button class="btn btn-success">
-                                                <i class="fa fa-pen"> Asset</i>
-                                               </button></td>
-                                            </tr>
-                                            <tr class="text_design" style="border:1px solid darkgray;background-color:lightgray;">
-                                                <td>10-12-2018</td>
-                                               <td><b>JL47299</b></td>
-                                               <td><b>35 Dominion Road, Mount<br> Eden, Auckland</b></td>
-                                               <td>12-11-2022</td>
-                                               <td>12-11-2022</td>
-                                               <td><b>$234356</b></td>
-                                               <td colspan="5"><b>Micheal Chen</b></td>
-                                               <td><button class="btn btn-success">
-                                                <i class="fa fa-pen"> Asset</i>
-                                               </button></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
+                            <div class="col-lg-2" style="text-align: right;">
+                            
+                                <button class="btn btn-lg btn-success" type="submit">Advance Search</button>
+                                
+                            </div>
                             </div>
                         </div>
                     </div>
