@@ -38,7 +38,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-
+  
 
     <style>
         .nav-tabs .nav-item.show .nav-link,
@@ -332,8 +332,16 @@
         .table-row-with-margin {
   margin-top: 20px;
 }
-
-
+        .table >thead >tr >th{
+            padding: 26px;
+        }
+        .table >tbody >tr >td{
+            color: #203466;
+            font-size: 15px;
+        }
+        .table >tbody >tr{
+            margin-top: 20px;
+        }
 
     </style>
 </head>
@@ -390,6 +398,8 @@
     </script>
 
 </body>
+
+
 
 
 <!-- Mirrored from webapplayers.com/inspinia_admin-v2.9.2/tabs.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Sep 2019 10:06:06 GMT -->

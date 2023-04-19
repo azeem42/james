@@ -918,9 +918,7 @@
                                                                     </div> -->
                                                                         <div class="input-group">
                                                                             <input type="text" class="form-control" placeholder="price ranges from" style="position:relative;">
-
                                                                             <span class="input-group-addon" style="position:absolute;right:2px;border:none;top:3px;">$</span>
-
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-6">
@@ -2794,17 +2792,17 @@
                                 <!-- </div> -->
                             </div>
                             <div class="row form-group" style="background-color: lightgray;">
-                                <div class="col-lg-10">
+                                <div class="col-lg-10 mt-1">
                                     <div class="row">
                                         <div class="col-lg-4">
                                             <div class="input-group">
                                                 <input type="date" class="form-control">
-                                                TO
+                                                <span class="input-group-addon">To</span>
                                                 <input type="date" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-lg-2">
-                                            <select class="form-select" aria-label="Default select example">
+                                            <select class="form-select" style="border-radius: 2px;">
                                                 <option selected>Listing Status</option>
                                                 <option value="1">One</option>
                                                 <option value="2">Two</option>
@@ -2812,7 +2810,7 @@
                                             </select>
                                         </div>
                                         <div class="col-lg-2">
-                                            <select class="form-select" aria-label="Default select example">
+                                            <select class="form-select" style="border-radius: 2px;">
                                                 <option selected>Listing Type</option>
                                                 <option value="1">One</option>
                                                 <option value="2">Two</option>
@@ -2820,7 +2818,7 @@
                                             </select>
                                         </div>
                                         <div class="col-lg-2">
-                                            <select class="form-select" aria-label="Default select example">
+                                            <select class="form-select" style="border-radius: 2px;">
                                                 <option selected>Listing Use</option>
                                                 <option value="1">One</option>
                                                 <option value="2">Two</option>
@@ -2828,7 +2826,7 @@
                                             </select>
                                         </div>
                                         <div class="col-lg-2">
-                                            <select class="form-select" aria-label="Default select example">
+                                            <select class="form-select" style="border-radius: 2px;">
                                                 <option selected>Salesperson</option>
                                                 <option value="1">One</option>
                                                 <option value="2">Two</option>
@@ -2838,19 +2836,160 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-2" style="text-align: right;">
-                                <button class="btn btn-lg btn-success" type="submit">Submit</button>
+                                    <button class="btn btn-lg btn-success" type="submit">Submit</button>
                                 </div>
                             </div>
                             <div class="row form-group">
-                            <div class="col-lg-10">
+                                <div class="col-lg-10">
+                                </div>
+                                <div class="col-lg-2" style="text-align: right;">
+                                    <button class="btn btn-lg btn-success" type="submit">Advance Search</button>
+                                </div>
+                            </div>
+                            <div class="row form-group" style="background-color: #203466;">
+                                <div class="col-lg-2 mt-1">
+                                    <select class="form-select" style="border-radius: 2px;">
+                                        <option selected>Property Type</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-2 mt-1">
+                                    <select class="form-select" style="border-radius: 2px;">
+                                        <option selected>Property Use</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-3 mt-1">
+                                    <div class="input-group">
+                                        <input type="date" class="form-control">
+                                        <span class="input-group-addon">To</span>
+                                        <input type="date" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mt-1">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Price From" style="position:relative;">
+                                        <span class="input-group-addon" style="position:absolute;right:2px;border:none;top:3px;">$</span>
+                                        <span class="input-group-addon">To</span>
+                                        <input type="text" class="form-control" placeholder="Price To" style="position:relative;">
+                                        <span class="input-group-addon" style="position:absolute;right:2px;border:none;top:3px;">$</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 mt-1">
+                                    <button class="btn btn-lg btn-success" style="background-color: darkgray;">
+                                        <i class="fa fa-file"></i>
+                                        PDF</button>
+                                </div>
+
+                                <div class="col-lg-2">
+                                    <select class="form-select" style="border-radius: 2px;">
+                                        <option selected>Property Type</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-2">
+                                    <select class="form-select" style="border-radius: 2px;">
+                                        <option selected>Property Use</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="input-group">
+                                        <input type="date" class="form-control">
+                                        <span class="input-group-addon">To</span>
+                                        <input type="date" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Price From" style="position:relative;">
+                                        <span class="input-group-addon" style="position:absolute;right:2px;border:none;top:3px;">$</span>
+                                        <span class="input-group-addon">To</span>
+                                        <input type="text" class="form-control" placeholder="Price To" style="position:relative;">
+                                        <span class="input-group-addon" style="position:absolute;right:2px;border:none;top:3px;">$</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1">
+                                    <button class="btn btn-lg btn-success" style="background-color: darkgray;">
+                                        <i class="fa fa-file"></i>
+                                        PDF</button>
+                                </div>
 
                             </div>
-                            <div class="col-lg-2" style="text-align: right;">
+
+                            <div class="row form-group">
                             
-                                <button class="btn btn-lg btn-success" type="submit">Advance Search</button>
-                                
+                            <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Reference</th>
+                                    <th>Property Address</th>
+                                    <th>Closing Date</th>
+                                    <th>Agency Expiry</th>
+                                    <th>Salesperson</th>
+                                    <th style="text-align: right;">Asset Builder</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>10-12-2018</td>
+                                    <td class=""><b>JL47299</b></td>
+                                    <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                    <td style="text-align: center;">12-11-2022</td>
+                                    <td style="text-align: center;"><b>&234356</b></td>
+                                    <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
+                                    <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                </tr>
+                                <tr>
+                                    <td>10-12-2018</td>
+                                    <td class=""><b>JL47299</b></td>
+                                    <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                    <td style="text-align: center;">12-11-2022</td>
+                                    <td style="text-align: center;"><b>&234356</b></td>
+                                    <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
+                                    <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                </tr>
+                                <tr>
+                                    <td>10-12-2018</td>
+                                    <td class=""><b>JL47299</b></td>
+                                    <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                    <td style="text-align: center;">12-11-2022</td>
+                                    <td style="text-align: center;"><b>&234356</b></td>
+                                    <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
+                                    <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                </tr>
+                                <tr>
+                                    <td>10-12-2018</td>
+                                    <td class=""><b>JL47299</b></td>
+                                    <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                    <td style="text-align: center;">12-11-2022</td>
+                                    <td style="text-align: center;"><b>&234356</b></td>
+                                    <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
+                                    <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                </tr>
+                                <tr>
+                                    <td>10-12-2018</td>
+                                    <td class=""><b>JL47299</b></td>
+                                    <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                    <td style="text-align: center;">12-11-2022</td>
+                                    <td style="text-align: center;"><b>&234356</b></td>
+                                    <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
+                                    <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                </tr>
+                            </tbody>
+                            </table>
+                            
                             </div>
-                            </div>
+
                         </div>
                     </div>
 
