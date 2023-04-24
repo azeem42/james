@@ -2940,7 +2940,16 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                            <tr>
+                                    <td></td>
+                                    <td class=""></td>
+                                    <td></td>
+                                    <td style="text-align: center;"></td>
+                                    <td style="text-align: center;"></td>
+                                    <td style="text-align: right;"></td>
+                                    <td style="text-align: right;"></td>
+                                </tr>
+                                <tr style="background-color: lightgray;">
                                     <td>10-12-2018</td>
                                     <td class=""><b>JL47299</b></td>
                                     <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
@@ -2950,6 +2959,15 @@
                                     <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
                                 </tr>
                                 <tr>
+                                    <td></td>
+                                    <td class=""></td>
+                                    <td></td>
+                                    <td style="text-align: center;"></td>
+                                    <td style="text-align: center;"></td>
+                                    <td style="text-align: right;"></td>
+                                    <td style="text-align: right;"></td>
+                                </tr>
+                                <tr style="background-color: lightgray;">
                                     <td>10-12-2018</td>
                                     <td class=""><b>JL47299</b></td>
                                     <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
@@ -2959,6 +2977,15 @@
                                     <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
                                 </tr>
                                 <tr>
+                                    <td></td>
+                                    <td class=""></td>
+                                    <td></td>
+                                    <td style="text-align: center;"></td>
+                                    <td style="text-align: center;"></td>
+                                    <td style="text-align: right;"></td>
+                                    <td style="text-align: right;"></td>
+                                </tr>
+                                <tr style="background-color: lightgray;">
                                     <td>10-12-2018</td>
                                     <td class=""><b>JL47299</b></td>
                                     <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
@@ -2968,6 +2995,15 @@
                                     <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
                                 </tr>
                                 <tr>
+                                    <td></td>
+                                    <td class=""></td>
+                                    <td></td>
+                                    <td style="text-align: center;"></td>
+                                    <td style="text-align: center;"></td>
+                                    <td style="text-align: right;"></td>
+                                    <td style="text-align: right;"></td>
+                                </tr>
+                                <tr style="background-color: lightgray;">
                                     <td>10-12-2018</td>
                                     <td class=""><b>JL47299</b></td>
                                     <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
@@ -2977,6 +3013,15 @@
                                     <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
                                 </tr>
                                 <tr>
+                                    <td></td>
+                                    <td class=""></td>
+                                    <td></td>
+                                    <td style="text-align: center;"></td>
+                                    <td style="text-align: center;"></td>
+                                    <td style="text-align: right;"></td>
+                                    <td style="text-align: right;"></td>
+                                </tr>
+                                <tr style="background-color: lightgray;">
                                     <td>10-12-2018</td>
                                     <td class=""><b>JL47299</b></td>
                                     <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
