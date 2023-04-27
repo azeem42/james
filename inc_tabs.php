@@ -2848,7 +2848,7 @@
                             </div>
                             <div class="row form-group" style="background-color: #203466;">
                                 <div class="col-lg-2 mt-1">
-                                    <select class="form-select" style="border-radius: 2px;">
+                                    <select class="bluee" style="border-radius: 2px;">
                                         <option selected>Property Type</option>
                                         <option value="1">One</option>
                                         <option value="2">Two</option>
@@ -2926,6 +2926,17 @@
                             </div>
 
                             <div class="row form-group">
+                            <div class="col-lg-2">
+                            <select name="" id="" class="bluee">
+                                <option value="">Hello World</option>
+                                <option value="">Hello World</option>
+                                <option value="">Hello World</option>
+                                <option value="">Hello World</option>
+                            </select>
+                            </div>
+                            </div>
+
+                            <div class="row form-group">
                             
                             <table class="table">
                             <thead>
@@ -2940,15 +2951,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                    <td></td>
-                                    <td class=""></td>
-                                    <td></td>
-                                    <td style="text-align: center;"></td>
-                                    <td style="text-align: center;"></td>
-                                    <td style="text-align: right;"></td>
-                                    <td style="text-align: right;"></td>
-                                </tr>
+                           
                                 <tr style="background-color: lightgray;">
                                     <td>10-12-2018</td>
                                     <td class=""><b>JL47299</b></td>
@@ -2958,15 +2961,7 @@
                                     <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
                                     <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class=""></td>
-                                    <td></td>
-                                    <td style="text-align: center;"></td>
-                                    <td style="text-align: center;"></td>
-                                    <td style="text-align: right;"></td>
-                                    <td style="text-align: right;"></td>
-                                </tr>
+                               
                                 <tr style="background-color: lightgray;">
                                     <td>10-12-2018</td>
                                     <td class=""><b>JL47299</b></td>
@@ -2976,15 +2971,7 @@
                                     <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
                                     <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class=""></td>
-                                    <td></td>
-                                    <td style="text-align: center;"></td>
-                                    <td style="text-align: center;"></td>
-                                    <td style="text-align: right;"></td>
-                                    <td style="text-align: right;"></td>
-                                </tr>
+                               
                                 <tr style="background-color: lightgray;">
                                     <td>10-12-2018</td>
                                     <td class=""><b>JL47299</b></td>
@@ -2994,15 +2981,7 @@
                                     <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
                                     <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class=""></td>
-                                    <td></td>
-                                    <td style="text-align: center;"></td>
-                                    <td style="text-align: center;"></td>
-                                    <td style="text-align: right;"></td>
-                                    <td style="text-align: right;"></td>
-                                </tr>
+                               
                                 <tr style="background-color: lightgray;">
                                     <td>10-12-2018</td>
                                     <td class=""><b>JL47299</b></td>
@@ -3012,15 +2991,7 @@
                                     <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
                                     <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
                                 </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class=""></td>
-                                    <td></td>
-                                    <td style="text-align: center;"></td>
-                                    <td style="text-align: center;"></td>
-                                    <td style="text-align: right;"></td>
-                                    <td style="text-align: right;"></td>
-                                </tr>
+                               
                                 <tr style="background-color: lightgray;">
                                     <td>10-12-2018</td>
                                     <td class=""><b>JL47299</b></td>

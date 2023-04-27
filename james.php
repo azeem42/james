@@ -346,8 +346,24 @@
         .table >tbody >tr{
             margin-top: 20px;
         }
-        
-
+       .bluee{
+        background-color: #1f3366;
+        color: white;
+        display: block;
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #1f3366;
+        appearance: none;
+       } 
+       .bluetextbox{
+        background-color: #1f3366;
+        color: white;
+        display: block;
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #1f3366;
+        appearance: none;
+       } 
 
     </style>
 </head>
