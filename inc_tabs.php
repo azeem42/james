@@ -2894,7 +2894,7 @@
                                     </select>
                                 </div>
                                 <div class="col-lg-2">
-                                    <select class="form-select" style="border-radius: 2px;">
+                                    <select class="form-select">
                                         <option selected>Property Use</option>
                                         <option value="1">One</option>
                                         <option value="2">Two</option>
@@ -2924,86 +2924,70 @@
                                 </div>
 
                             </div>
-
                             <div class="row form-group">
-                            <div class="col-lg-2">
-                            <select name="" id="" class="bluee">
-                                <option value="">Hello World</option>
-                                <option value="">Hello World</option>
-                                <option value="">Hello World</option>
-                                <option value="">Hello World</option>
-                            </select>
-                            </div>
-                            </div>
 
-                            <div class="row form-group">
-                            
-                            <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Date</th>
-                                    <th>Reference</th>
-                                    <th>Property Address</th>
-                                    <th>Closing Date</th>
-                                    <th>Agency Expiry</th>
-                                    <th>Salesperson</th>
-                                    <th style="text-align: right;">Asset Builder</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                           
-                                <tr style="background-color: lightgray;">
-                                    <td>10-12-2018</td>
-                                    <td class=""><b>JL47299</b></td>
-                                    <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
-                                    <td style="text-align: center;">12-11-2022</td>
-                                    <td style="text-align: center;"><b>&234356</b></td>
-                                    <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
-                                    <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
-                                </tr>
-                               
-                                <tr style="background-color: lightgray;">
-                                    <td>10-12-2018</td>
-                                    <td class=""><b>JL47299</b></td>
-                                    <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
-                                    <td style="text-align: center;">12-11-2022</td>
-                                    <td style="text-align: center;"><b>&234356</b></td>
-                                    <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
-                                    <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
-                                </tr>
-                               
-                                <tr style="background-color: lightgray;">
-                                    <td>10-12-2018</td>
-                                    <td class=""><b>JL47299</b></td>
-                                    <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
-                                    <td style="text-align: center;">12-11-2022</td>
-                                    <td style="text-align: center;"><b>&234356</b></td>
-                                    <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
-                                    <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
-                                </tr>
-                               
-                                <tr style="background-color: lightgray;">
-                                    <td>10-12-2018</td>
-                                    <td class=""><b>JL47299</b></td>
-                                    <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
-                                    <td style="text-align: center;">12-11-2022</td>
-                                    <td style="text-align: center;"><b>&234356</b></td>
-                                    <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
-                                    <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
-                                </tr>
-                               
-                                <tr style="background-color: lightgray;">
-                                    <td>10-12-2018</td>
-                                    <td class=""><b>JL47299</b></td>
-                                    <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
-                                    <td style="text-align: center;">12-11-2022</td>
-                                    <td style="text-align: center;"><b>&234356</b></td>
-                                    <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i>  <b>Micheal Chen</b></td>
-                                    <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
-                                </tr>
-                            </tbody>
-                            </table>
-                            
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Reference</th>
+                                            <th>Property Address</th>
+                                            <th>Closing Date</th>
+                                            <th>Agency Expiry</th>
+                                            <th>Salesperson</th>
+                                            <th style="text-align: right;">Asset Builder</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr style="background-color: lightgray;">
+                                            <td>10-12-2018</td>
+                                            <td class=""><b>JL47299</b></td>
+                                            <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                            <td style="text-align: center;">12-11-2022</td>
+                                            <td style="text-align: center;"><b>&234356</b></td>
+                                            <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i> <b>Micheal Chen</b></td>
+                                            <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                        </tr>
+                                        <tr style="background-color: lightgray;">
+                                            <td>10-12-2018</td>
+                                            <td class=""><b>JL47299</b></td>
+                                            <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                            <td style="text-align: center;">12-11-2022</td>
+                                            <td style="text-align: center;"><b>&234356</b></td>
+                                            <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i> <b>Micheal Chen</b></td>
+                                            <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                        </tr>
+                                        <tr style="background-color: lightgray;">
+                                            <td>10-12-2018</td>
+                                            <td class=""><b>JL47299</b></td>
+                                            <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                            <td style="text-align: center;">12-11-2022</td>
+                                            <td style="text-align: center;"><b>&234356</b></td>
+                                            <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i> <b>Micheal Chen</b></td>
+                                            <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                        </tr>
+
+                                        <tr style="background-color: lightgray;">
+                                            <td>10-12-2018</td>
+                                            <td class=""><b>JL47299</b></td>
+                                            <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                            <td style="text-align: center;">12-11-2022</td>
+                                            <td style="text-align: center;"><b>&234356</b></td>
+                                            <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i> <b>Micheal Chen</b></td>
+                                            <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                        </tr>
+                                        <tr style="background-color: lightgray;">
+                                            <td>10-12-2018</td>
+                                            <td class=""><b>JL47299</b></td>
+                                            <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                            <td style="text-align: center;">12-11-2022</td>
+                                            <td style="text-align: center;"><b>&234356</b></td>
+                                            <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i> <b>Micheal Chen</b></td>
+                                            <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
                             </div>
 
                         </div>
@@ -3011,7 +2995,74 @@
 
                     <div role="tabpanel" id="tab-7" class="tab-pane">
                         <div class="panel-body mt-3" style="border-radius:10px;">
-                            <p>Asset Builder</p>
+                            <div class="row form-group">
+
+                                <div class="abc">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Reference</th>
+                                            <th>Property Address</th>
+                                            <th>Closing Date</th>
+                                            <th>Agency Expiry</th>
+                                            <th>Salesperson</th>
+                                            <th style="text-align: right;">Asset Builder</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                        <tr style="background-color: lightgray;">
+                                            <td>10-12-2018</td>
+                                            <td class=""><b>JL47299</b></td>
+                                            <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                            <td style="text-align: center;">12-11-2022</td>
+                                            <td style="text-align: center;"><b>&234356</b></td>
+                                            <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i> <b>Micheal Chen</b></td>
+                                            <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                        </tr>
+                                        
+                                        <tr style="background-color: lightgray;">
+                                            <td>10-12-2018</td>
+                                            <td class=""><b>JL47299</b></td>
+                                            <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                            <td style="text-align: center;">12-11-2022</td>
+                                            <td style="text-align: center;"><b>&234356</b></td>
+                                            <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i> <b>Micheal Chen</b></td>
+                                            <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                        </tr>
+                                        <tr style="background-color: lightgray;">
+                                            <td>10-12-2018</td>
+                                            <td class=""><b>JL47299</b></td>
+                                            <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                            <td style="text-align: center;">12-11-2022</td>
+                                            <td style="text-align: center;"><b>&234356</b></td>
+                                            <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i> <b>Micheal Chen</b></td>
+                                            <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                        </tr>
+
+                                        <tr style="background-color: lightgray;">
+                                            <td>10-12-2018</td>
+                                            <td class=""><b>JL47299</b></td>
+                                            <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                            <td style="text-align: center;">12-11-2022</td>
+                                            <td style="text-align: center;"><b>&234356</b></td>
+                                            <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i> <b>Micheal Chen</b></td>
+                                            <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                        </tr>
+                                        <tr style="background-color: lightgray;">
+                                            <td>10-12-2018</td>
+                                            <td class=""><b>JL47299</b></td>
+                                            <td><b>335 Dominion Road, Mount&nbsp;&nbsp;12-11-2022<br>Eden, Auckland</b></td>
+                                            <td style="text-align: center;">12-11-2022</td>
+                                            <td style="text-align: center;"><b>&234356</b></td>
+                                            <td style="text-align: right;"><i class="fa fa-file-image" style="font-size: 30px;"></i> <b>Micheal Chen</b></td>
+                                            <td style="text-align: right;"><button class="btn btn-success"><i class="fa fa-pen"></i>&nbsp;&nbsp;Asset</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
