@@ -23,7 +23,18 @@
   <link href="css/plugins/datapicker/datepicker3.css" rel="stylesheet">
   <link href="css/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet">
   
+<style>
 
+.text_design {
+            color: #203466;
+            font-size: 14px;
+        }
+.progress{
+            height: 7px;
+            width: 136px;
+}
+
+</style>
 </head>
 
 <body>
@@ -32,13 +43,13 @@
 
         <nav class="navbar-default navbar-static-side" role="navigation">
 
-            <!-- <?php include('inc_leftmenu.php');  ?> -->
+            <?php include('inc_leftmenu.php');  ?> 
 
         </nav>
 
         <div id="page-wrapper" class="gray-bg">
             
-            <?php include('inc_tabs.php');  ?>
+            <?php include('inc_jameslaw.php');  ?>
 
             
 

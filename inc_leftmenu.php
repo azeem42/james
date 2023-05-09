@@ -1,6 +1,6 @@
 <div class="sidebar-collapse">
     <ul class="nav metismenu" id="side-menu">
-        <li class="nav-header">
+        <!-- <li class="nav-header">
             <div class="dropdown profile-element">
                 <img alt="image" class="rounded-circle" src="img/profile_small.jpg"/>
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">
@@ -18,7 +18,7 @@
             <div class="logo-element">
                 IN+
             </div>
-        </li>
+        </li> -->
         <li>
             <a href="index-2.html"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span></a>
         </li>
