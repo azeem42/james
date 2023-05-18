@@ -23,6 +23,10 @@
   <link href="css/plugins/datapicker/datepicker3.css" rel="stylesheet">
   <link href="css/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet">
   
+  <link href="css/plugins/fullcalendar/fullcalendar.css" rel="stylesheet">
+    <link href="css/plugins/fullcalendar/fullcalendar.print.css" rel='stylesheet' media='print'>
+    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+
 <style>
 
 .text_design {
@@ -43,7 +47,10 @@
             height: 6px;
             width: 130px;
 }
-
+.days_cal {
+            color: #203466;
+            font-size: 10px;
+        }
 </style>
 </head>
 
@@ -77,6 +84,7 @@
 
 
     <!-- Mainly scripts -->
+    <script src="js/plugins/fullcalendar/moment.min.js"></script>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
@@ -84,9 +92,20 @@
     <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
     <!-- Custom and plugin javascript -->
+    
     <script src="js/inspinia.js"></script>
     <script src="js/plugins/pace/pace.min.js"></script>
 
+    <!-- jQuery UI  -->
+<script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+<!-- iCheck -->
+<script src="js/plugins/iCheck/icheck.min.js"></script>
+
+<!-- Full Calendar -->
+<script src="js/plugins/fullcalendar/fullcalendar.min.js"></script>
+
+    
 
 </body>
 
