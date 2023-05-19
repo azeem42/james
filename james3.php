@@ -27,6 +27,10 @@
     <link href="css/plugins/fullcalendar/fullcalendar.print.css" rel='stylesheet' media='print'>
     <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
 
+    <link href="css/plugins/slick/slick.css" rel="stylesheet">
+    <link href="css/plugins/slick/slick-theme.css" rel="stylesheet">
+
+
 <style>
 
 .text_design {
@@ -51,6 +55,10 @@
             color: #203466;
             font-size: 10px;
         }
+.date_cal {
+            color: #203466;
+            font-size: 13px;
+}
 </style>
 </head>
 
@@ -105,7 +113,59 @@
 <!-- Full Calendar -->
 <script src="js/plugins/fullcalendar/fullcalendar.min.js"></script>
 
-    
+  <!-- slick carousel-->
+  <script src="js/plugins/slick/slick.min.js"></script>
+
+  <script>
+        $(document).ready(function(){
+
+
+            $('.slick_demo_1').slick({
+                dots: false
+            });
+
+            $('.slick_demo_2').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                centerMode: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+            $('.slick_demo_3').slick({
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+                adaptiveHeight: true
+            });
+        });
+
+    </script>
 
 </body>
 

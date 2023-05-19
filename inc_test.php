@@ -127,13 +127,52 @@
             <div class="col-lg-1 center-text mr-2 days_cal">SUN</div>
            </div>
            <div class="row mt-2">
-            <div class="col-lg-1 center-text ml-2 days_cal"><b>8</b></div>
-            <div class="col-lg-1 center-text mr-2 days_cal"><b>9</b></div>
-            <div class="col-lg-1 center-text mr-2 days_cal"><b>10</b></div>
-            <div class="col-lg-1 center-text mr-2 days_cal"><b>11</b></div>
-            <div class="col-lg-1 center-text mr-2 days_cal"><b>12</b></div>
-            <div class="col-lg-1 center-text mr-2 days_cal"><b>13</b></div>
-            <div class="col-lg-1 center-text mr-2 days_cal"><b>14</b></div>
+            <div class="col-lg-1 center-text ml-2 date_cal"><b>8</b></div>
+            <div class="col-lg-1 center-text mr-2 date_cal"><b>9</b></div>
+            <div class="col-lg-1 center-text mr-2 date_cal"><b>10</b></div>
+            <div class="col-lg-1 center-text mr-2 date_cal"><b>11</b></div>
+            <div class="col-lg-1 center-text mr-2 date_cal"><b>12</b></div>
+            <div class="col-lg-1 center-text mr-2 date_cal"><b>13</b></div>
+            <div class="col-lg-1 center-text mr-2 date_cal"><b>14</b></div>
+           </div>
+           <div class="row">
+            <div class="col-lg-12 mt-3" style="border:1px solid green;">
+
+            <div class="slick_demo_1">
+
+<div>
+    <div class="ibox-content" style="background-color: lightgrey;">
+        <h4 class="text_design"><b>jl23454</b></h4>
+        <p>
+            56 / 241 Flat Bush School Road,<br>Flat Bush, Manukau City...
+        </p>
+        <h4 class="text_design"><b>12:00PM - 8:00PM</b></h4>
+        <h4 class="text_design"><b>Joyce, Corbin</b></h4>
+    </div>
+</div>
+<div>
+<div class="ibox-content" style="background-color: lightgrey;">
+        <h4 class="text_design"><b>jl23454</b></h4>
+        <p>
+            56 / 241 Flat Bush School Road,<br>Flat Bush, Manukau City...
+        </p>
+        <h4 class="text_design"><b>12:00PM - 8:00PM</b></h4>
+        <h4 class="text_design"><b>Joyce, Corbin</b></h4>
+    </div>
+</div>
+<div>
+<div class="ibox-content" style="background-color: lightgrey;">
+        <h4 class="text_design"><b>jl23454</b></h4>
+        <p>
+            56 / 241 Flat Bush School Road,<br>Flat Bush, Manukau City...
+        </p>
+        <h4 class="text_design"><b>12:00PM - 8:00PM</b></h4>
+        <h4 class="text_design"><b>Joyce, Corbin</b></h4>
+    </div>
+</div>
+</div>
+
+            </div>
            </div>
             </div>
             </div>
